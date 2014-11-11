@@ -1,0 +1,15 @@
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\bin\Debug\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\bin\Debug\MinimosQuadrados.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.Form1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.Properties.Resources.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.csproj.GenerateResource.Cache
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos Tridimensionais a Partir de Suas Imagens Bidimensionais\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\bin\Debug\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\bin\Debug\MinimosQuadrados.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.Form1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.Properties.Resources.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.csproj.GenerateResource.Cache
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Debug\MinimosQuadrados.csprojResolveAssemblyReference.cache

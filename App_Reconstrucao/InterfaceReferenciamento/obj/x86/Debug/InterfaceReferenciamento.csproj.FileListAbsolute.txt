@@ -1,0 +1,26 @@
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\bin\Debug\InterfaceReferenciamento.exe
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\bin\Debug\InterfaceReferenciamento.pdb
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.Form1.resources
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.Properties.Resources.resources
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.csproj.GenerateResource.Cache
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.exe
+c:\users\ivan cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.pdb
+C:\Users\Ivan Cézanne\documents\visual studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.csprojResolveAssemblyReference.cache
+C:\Users\Ivan Cézanne\Documents\Visual Studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptReferencia.resources
+C:\Users\Ivan Cézanne\Documents\Visual Studio 2010\Projects\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptRemocao.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\bin\Debug\InterfaceReferenciamento.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\bin\Debug\InterfaceReferenciamento.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.Form1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptReferencia.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.Properties.Resources.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.csproj.GenerateResource.Cache
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.csprojResolveAssemblyReference.cache
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.AboutBox1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptPontosInteresse.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptPontosReferencia.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptRemocaoInteresse.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptRemocaoReferencia.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptReconstrucao.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\InterfaceReferenciamento\InterfaceReferenciamento\obj\x86\Debug\InterfaceReferenciamento.PromptEscolhaValorZ.resources
