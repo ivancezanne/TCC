@@ -1,0 +1,118 @@
+\NeedsTeXFormat{LaTeX2e}
+%-----------------------------------------------------------
+\documentclass[a4paper,12pt]{monografia}
+\usepackage[alf]{abntex2cite}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{amsmath}
+
+\usepackage{subfig}
+\usepackage{graphicx}
+
+%\usepackage[hidelinks]{hyperref}
+%-----------------------------------------------------------
+\begin{document}
+
+\pagenumbering{roman}
+%-----------Título e Dados do Autor---------------------------
+\titulo{Reconstrução de Objetos 3D a partir de Imagens 2D}
+%\subtitulo{Subtítulo} % opcional
+\autor{Ivan Cezanne Ismerim Bezerra de Meneses Seara} \nome{Ivan Cezanne} \ultimonome{Ismerim Bezerra de Meneses Seara}
+%
+%-----------Informe o Curso e Grau----------------------------
+\bacharelado \curso{Bacharelado em Ciência da Computação} \ano{2014}
+\data{27/11/2014} % data da aprovação
+\cidade{Ilhéus}
+\estado{Bahia}
+%
+%-----------Informações sobre a Instituição-------------------
+\instituicao{Universidade Estadual de Santa Cruz} \sigla{UESC}
+\unidadeacademica{Departamento de Ciências Exatas e Tecnológicas}
+
+%-----------Informações obtidas na Biblioteca-----------------
+\CDU{XXX.XX} \areas{1.???  2.???}
+\npaginas{xx}  % total de páginas do trabalho
+%------Nomes do Orientador, 1o. Examinador e 2o. Examinador-
+\orientador{César Alberto Bravo Pariente}
+%
+\examinadorum{Vânia Cordeiro da Silva}
+%
+\examinadordois{Marcelo Ossamu Honda}
+
+%--------- Títulos do Orientador 1o. e 2o. Examinadores ----
+\ttorientador{Doutor}
+
+\ttexaminadorum{Doutora}
+%
+\ttexaminadordois{Doutor}
+%
+%--------- Funções do 1o. e 2o. Examinadores ---------------
+\funcaoexaminadorum{}
+%
+\funcaoexaminadordois{}
+%
+\maketitle
+
+%-----------Dedicatória (Opcional)--------------------------
+\begin{dedicatoria}
+À família, aos amigos e aos mestres, dedico.
+\end{dedicatoria}
+
+%-----------Agradecimentos (Opcional)-----------------------
+\agradecimento{Agradecimentos}
+
+\input{agradecimentos}
+
+%-----------Digite aqui o seu resumo em Português-----------
+
+\setcounter{page}{5}
+
+\resumo{Resumo}
+
+\input{resumo}
+
+\newpage
+
+%-----------Epígrafe (Opcional)-----------------------------
+\begin{epigrafe}
+``Há um ditado que ensina `o gênio é uma grande paciência`; sem pretender ser gênio, teimei em ser um grande paciente. As invenções são, sobretudo, o resultado de um trabalho teimoso, em que não deve haver lugar para o esmorecimento''.\\
+\hfill Alberto Santos Dumont
+\end{epigrafe}
+
+%-----------Sumário, lista de figura e de tabela------------
+\tableofcontents \thispagestyle{empty}
+\listoftables \thispagestyle{empty}
+\listoffigures \thispagestyle{empty}
+
+%-----------Início do Conteúdo------------------------------
+\pagestyle{ruledheader}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hifenizacao - Colocar lista de palavras que nao devem ser separadas e que 
+% nao estao no dicionario portugues.
+% As palavras do dicionario portugues ja sao separadas corretamente pelo lateX
+%
+\hyphenation{ Hardware Software etc  fun-cio-na-men-to }
+
+%-------------Capítulos-------------------------------------
+
+\input{capitulos/introducao}
+\input{capitulos/estadoDaArte}
+\input{capitulos/materiaisEMetodos}
+\input{capitulos/projecoesECalibracao}
+\input{capitulos/reconstrucao}
+\input{capitulos/osSoftwares}
+\input{capitulos/resultadosEDiscussoes}
+
+%-----------Bibliografia------------------------------------
+
+%\nocite{*}
+
+%\bibliographystyle{bst/abntex2-alf}
+
+\bibliography{bibliografia} % arquivos com as entradas bib.
+
+\end{document}

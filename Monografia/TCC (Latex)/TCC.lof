@@ -1,0 +1,43 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Triangula\IeC {\c c}\IeC {\~a}o utilizada na geomtria epipolar\relax }}{5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces O \textit {VW Beetle} de Sutherland\relax }}{9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textit {VW Beetle} de Sutherland renderizado \cite {renderingSutherlandVW}}}}{9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textit {VW Beetle} de Sutherland em \textit {wireframe} \cite {wireframeSutherlandVW}}}}{9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textit {VW Beetle} de Sutherland com refer\IeC {\^e}ncias \cite {jalopnik}}}}{9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces O Bule de Leite de Newell\relax }}{9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bule de Leite de Newell convencional \cite {newellResearch}}}}{9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bule de Leite de Newell suavizado \cite {newellResearch}}}}{9}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A litografia de D\IeC {\"u}rer \cite {durerSite}\relax }}{10}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cenas para valida\IeC {\c c}\IeC {\~a}o da t\IeC {\'e}cnica de reconstru\IeC {\c c}\IeC {\~a}o\relax }}{11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cena espec\IeC {\'\i }fica 1, um cubo unit\IeC {\'a}rio}}}{11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cena espec\IeC {\'\i }fica 2, uma pir\IeC {\^a}mide regular equil\IeC {\'a}tera unit\IeC {\'a}ria}}}{11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cena espec\IeC {\'\i }fica 3, um cubo de dimens\IeC {\~a}o $0.5$}}}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o paralela em \cite {archiGeoBook}\relax }}{13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o c\IeC {\^o}nica em \cite {archiGeoBook}\relax }}{14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Os pontos $P_i$ pertencem \IeC {\`a} reta de proje\IeC {\c c}\IeC {\~a}o de $P$, mas suas coordenadas Z s\IeC {\~a}o diferentes da coordenada Z do ponto $P$\relax }}{19}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \IeC {\'E} percept\IeC {\'\i }vel que os pontos demarcados com um "X" t\IeC {\^e}m a mesma coordenada Z no espa\IeC {\c c}o\relax }}{20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces O programa de regress\IeC {\~a}o de rasteriza\IeC {\c c}\IeC {\~a}o com regi\IeC {\~a}o de interesse e coeficientes ressaltados\relax }}{23}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Reta anal\IeC {\'\i }tica correspondente \IeC {\`a} linha da regi\IeC {\~a}o demarcada na figura \ref {figMinQuadInterface}\relax }}{23}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Aplicativo de proje\IeC {\c c}\IeC {\~a}o 3D com a famosa malha Suzanne\relax }}{24}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Op\IeC {\c c}\IeC {\~o}es adicionais do aplicativo de proje\IeC {\c c}\IeC {\~a}o 3D de aux\IeC {\'\i }lio \IeC {\`a} visualiza\IeC {\c c}\IeC {\~a}o\relax }}{24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Menu onde se escolhe quais elementos da malha ser\IeC {\~a}o renderizados}}}{24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Menu onde se pode alterar as cores dos elementos da malha}}}{24}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Tela inicial do aplicativo de reconstru\IeC {\c c}\IeC {\~a}o\relax }}{25}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Utiliza\IeC {\c c}\IeC {\~a}o da interface para a demarca\IeC {\c c}\IeC {\~a}o de pontos de refer\IeC {\^e}ncia e interesse\relax }}{25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Interface apenas com uma imagem incial}}}{25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Ap\IeC {\'o}s o \textit {click}, um \textit {prompt} solicita dados acerca do ponto}}}{25}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Pelos \textit {radio buttons}, o mesmo \textit {prompt} \IeC {\'e} utilizado para catalogar pontos de refer\IeC {\^e}ncia e de interesse}}}{25}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Uma cena completamente catalogada}}}{25}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \textit {Prompt} com dados necess\IeC {\'a}rio \IeC {\`a} reconstru\IeC {\c c}\IeC {\~a}o\relax }}{26}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \textit {Prompt} para escolha manual da coordenada Z\relax }}{26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Panoramas das reconstru\IeC {\c c}\IeC {\~o}es de valida\IeC {\c c}\IeC {\~a}o\relax }}{28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Panorama para a reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 1}}}{28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 2}}}{28}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 3}}}{28}
