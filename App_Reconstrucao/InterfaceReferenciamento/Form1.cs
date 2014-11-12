@@ -746,18 +746,16 @@ namespace InterfaceReferenciamento
                                         //remove todos os valores z que o ponto atual não tem (fica só com a interseção)
                                         List<double> valoresARemover = new List<double>();
                                         for (int k = 0; k < valoresZ.Count; k++) {
-                                            double remove = valoresZ[k];
+                                            Boolean remove = true;
                                             for (int kk = 0; kk < valoresZponto.Count; kk++) {
                                                 if (valoresZ[k] == valoresZponto[kk]) {
-                                                    remove = -1;
+                                                    remove = false;
                                                 }
                                             }
-                                            if (remove != -1) {
-                                                valoresARemover.Add(remove);
+                                            if (remove) {
+                                                valoresZ.RemoveAt(k);
+                                                k--;
                                             }
-                                        }
-                                        for (int k = 0; k < valoresARemover.Count; k++) {
-                                            valoresZ.Remove(valoresARemover[k]);
                                         }
 
                                         //verifica se houve problemas com a interseção

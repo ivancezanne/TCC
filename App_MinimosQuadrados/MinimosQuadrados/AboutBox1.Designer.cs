@@ -1,4 +1,4 @@
-﻿namespace InterfaceReferenciamento
+﻿namespace MinimosQuadrados
 {
     partial class AboutBox1
     {
@@ -87,7 +87,7 @@
             this.labelProductName.Name = "labelProductName";
             this.labelProductName.Size = new System.Drawing.Size(271, 17);
             this.labelProductName.TabIndex = 19;
-            this.labelProductName.Text = "TCC - Técnica de Construção por Calibração";
+            this.labelProductName.Text = "Product Name";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelVersion
@@ -99,7 +99,7 @@
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(271, 17);
             this.labelVersion.TabIndex = 0;
-            this.labelVersion.Text = "v0.1";
+            this.labelVersion.Text = "Version";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCopyright
@@ -111,7 +111,7 @@
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(271, 17);
             this.labelCopyright.TabIndex = 21;
-            this.labelCopyright.Text = "Ivan Cézanne Seara";
+            this.labelCopyright.Text = "Copyright";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCompanyName
@@ -123,7 +123,7 @@
             this.labelCompanyName.Name = "labelCompanyName";
             this.labelCompanyName.Size = new System.Drawing.Size(271, 17);
             this.labelCompanyName.TabIndex = 22;
-            this.labelCompanyName.Text = "Universidade Estadual de Santa Cruz";
+            this.labelCompanyName.Text = "Company Name";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxDescription
@@ -138,9 +138,7 @@
             this.textBoxDescription.Size = new System.Drawing.Size(271, 126);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Reconstrua objetos em 3D a partir de suas imagens. Software desenvolvido como imp" +
-    "lementação de técnica de reconstrução apresentada como Trabalho de Conclusão de " +
-    "Curso em Ciência da Computação";
+            this.textBoxDescription.Text = "Description";
             // 
             // okButton
             // 
@@ -167,7 +165,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "TCC - Sobre";
+            this.Text = "AboutBox1";
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();

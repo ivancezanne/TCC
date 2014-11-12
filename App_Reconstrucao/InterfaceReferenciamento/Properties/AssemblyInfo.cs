@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TCC")]
-[assembly: AssemblyDescription("Reconstrua objetos em 3D a partir de suas imagens. Software desenvolvido como implementação de técnica de reconstrução apresentada como Trabalho de Conclusão de Curso em Ciência da Computação na Universidade Estadual de Santa Cruz (UESC) sob orientação do Prof. Dr. César Alberto Bravo Pariente e apoio do Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB).")]
+[assembly: AssemblyDescription("Reconstrua objetos em 3D a partir de imagens. Implementação de técnica de reconstrução apresentada como Trabalho de Conclusão de Curso em Ciência da Computação na Universidade Estadual de Santa Cruz (UESC) sob orientação do Prof. Dr. César Alberto Bravo Pariente e apoio do Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB).")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ivan Cézanne Seara")]
 [assembly: AssemblyProduct("TCC - Técnica de Construção por Calibração")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.0.5")]
-[assembly: AssemblyFileVersion("0.0.0.5")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]

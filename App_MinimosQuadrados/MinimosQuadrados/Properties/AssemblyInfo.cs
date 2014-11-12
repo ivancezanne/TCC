@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MinimosQuadrados")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Descubra retas em imagens. Ferramenta auxiliar para trabalho de conclusão de curso em ciência da computação na Universidade Estadual de Santa Cruz (UESC) sob a orientação do Prof. Dr. César Alberto Bravo Pariente e apoio do Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB).")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ivan Cézanne Seara")]
 [assembly: AssemblyProduct("MinimosQuadrados")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]

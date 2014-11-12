@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Projeção")]
-[assembly: AssemblyDescription("Projete malhas PLY em perspectiva. Software desenvolvido como ferramenta auxiliar para trabalho de conclusão de curso em ciência da computação na Universidade Estadual de Santa Cruz (UESC) sob a orientação do Prof. Dr. César Alberto Bravo Pariente e apoio do Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB).")]
+[assembly: AssemblyDescription("Projete malhas PLY em perspectiva. Ferramenta auxiliar para trabalho de conclusão de curso em ciência da computação na Universidade Estadual de Santa Cruz (UESC) sob a orientação do Prof. Dr. César Alberto Bravo Pariente e apoio do Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB).")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ivan Cézanne Seara")]
 [assembly: AssemblyProduct("Projeção")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.0.5")]
-[assembly: AssemblyFileVersion("0.0.0.5")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

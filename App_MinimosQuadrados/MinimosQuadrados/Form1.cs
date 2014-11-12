@@ -33,16 +33,6 @@ namespace MinimosQuadrados
                                Math.Abs(r.pontos[1].Y - r.pontos[0].Y));
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            openFileDialog1.ShowDialog();
-            String arquivo = openFileDialog1.FileName;
-
-            Bitmap imagem = new Bitmap(arquivo);
-
-            pictureBox1.Image = imagem;
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MouseEventArgs me = (MouseEventArgs)e;
@@ -52,11 +42,9 @@ namespace MinimosQuadrados
 
             switch(r.npontos){
                 case 0:
-                    toolStripStatusLabel1.Text = coordinates.X + "x" + coordinates.Y;
                     r.npontos++;
                     break;
                 case 1:
-                    toolStripStatusLabel2.Text = coordinates.X + "x" + coordinates.Y;
                     r.npontos = 0;
                     break;
             }
@@ -64,9 +52,22 @@ namespace MinimosQuadrados
             this.atualizaTela();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void abrirImagemToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            openFileDialog1.FileName = "";
 
+            openFileDialog1.ShowDialog();
+
+            if (openFileDialog1.FileName != "")
+            {
+                String arquivo = openFileDialog1.FileName;
+
+                pictureBox1.Image = new Bitmap(arquivo);
+            }
+        }
+
+        private void executarAproximaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             Bitmap imagem = (Bitmap)pictureBox1.Image;
 
             r.interesse.Clear();
@@ -94,6 +95,18 @@ namespace MinimosQuadrados
 
             label1.Text = "m = " + m + " e b = " + b;
 
+            Point p1 = new Point(0, Convert.ToInt32(m * 0 + b));
+            Point p2 = new Point(this.pictureBox1.Width, Convert.ToInt32(m * this.pictureBox1.Width + b));
+
+            Graphics graf = pictureBox1.CreateGraphics();
+
+            graf.DrawLine(new Pen(Color.Blue, 2), p1, p2);
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 sobre = new AboutBox1();
+            sobre.ShowDialog(this);
         }
     }
 }
