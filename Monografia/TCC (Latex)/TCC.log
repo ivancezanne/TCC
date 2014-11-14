@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  11 NOV 2014 15:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  14 NOV 2014 14:30
 entering extended mode
 **TCC.tex
 
@@ -525,13 +525,13 @@ duções\TCC\TCC.lot")
 
 ]
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\TCC.lof")
+duções\TCC\TCC.lof" [11
+
+])
 \tf@lof=\write5
 
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\capitulos/introducao.tex" [11
-
-]
+duções\TCC\capitulos/introducao.tex" [12]
 Cap\'{\i }tulo 1.
 [1
 
@@ -546,7 +546,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\capitulos/estadoDaArte.tex" [3]
 Cap\'{\i }tulo 2.
-<imagens/geometriaEpipolar.png, id=54, 301.125pt x 198.7425pt>
+<imagens/geometriaEpipolar.png, id=57, 301.125pt x 198.7425pt>
 File: imagens/geometriaEpipolar.png Graphic file (type png)
 
 <use imagens/geometriaEpipolar.png>
@@ -567,55 +567,55 @@ ao dos par^ametros
 Cap\'{\i }tulo 3.
 [7
 
-] <imagens/SutherlandsVW-Skinned.jpg, id=69, 602.25pt x 451.6875pt>
+] <imagens/SutherlandsVW-Skinned.jpg, id=73, 602.25pt x 451.6875pt>
 File: imagens/SutherlandsVW-Skinned.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Skinned.jpg>
 Package pdftex.def Info: imagens/SutherlandsVW-Skinned.jpg used on input line 4
-0.
+1.
 (pdftex.def)             Requested size: 189.68217pt x 142.26378pt.
 
-<imagens/SutherlandsVW-Wireframe.jpg, id=70, 602.25pt x 451.6875pt>
+<imagens/SutherlandsVW-Wireframe.jpg, id=74, 602.25pt x 451.6875pt>
 File: imagens/SutherlandsVW-Wireframe.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Wireframe.jpg>
 Package pdftex.def Info: imagens/SutherlandsVW-Wireframe.jpg used on input line
- 45.
+ 46.
 (pdftex.def)             Requested size: 189.68217pt x 142.26378pt.
 
-<imagens/SutherlandsVW-Skinned-Referenced.jpg, id=71, 973.6375pt x 548.0475pt>
+<imagens/SutherlandsVW-Skinned-Referenced.jpg, id=75, 973.6375pt x 548.0475pt>
 File: imagens/SutherlandsVW-Skinned-Referenced.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Skinned-Referenced.jpg>
 Package pdftex.def Info: imagens/SutherlandsVW-Skinned-Referenced.jpg used on i
-nput line 50.
+nput line 51.
 (pdftex.def)             Requested size: 252.73865pt x 142.26378pt.
 
-Underfull \hbox (badness 1635) in paragraph at lines 50--50
+Underfull \hbox (badness 1635) in paragraph at lines 51--51
 []\OT1/cmr/m/n/10 (c) |\OT1/cmr/m/it/10 VW Be-e-tle \OT1/cmr/m/n/10 de Suther-l
 and com re-fer^encias (TOR-
  []
 
-<imagens/Milkjug-Wireframe-1.png, id=72, 451.6875pt x 417.81094pt>
+<imagens/Milkjug-Wireframe-1.png, id=76, 451.6875pt x 417.81094pt>
 File: imagens/Milkjug-Wireframe-1.png Graphic file (type png)
 
 <use imagens/Milkjug-Wireframe-1.png>
-Package pdftex.def Info: imagens/Milkjug-Wireframe-1.png used on input line 62.
+Package pdftex.def Info: imagens/Milkjug-Wireframe-1.png used on input line 63.
 
 (pdftex.def)             Requested size: 153.79915pt x 142.26378pt.
 
-<imagens/Milkjug-Wireframe-2.png, id=73, 415.5525pt x 418.56375pt>
+<imagens/Milkjug-Wireframe-2.png, id=77, 415.5525pt x 418.56375pt>
 File: imagens/Milkjug-Wireframe-2.png Graphic file (type png)
 
 <use imagens/Milkjug-Wireframe-2.png>
-Package pdftex.def Info: imagens/Milkjug-Wireframe-2.png used on input line 67.
+Package pdftex.def Info: imagens/Milkjug-Wireframe-2.png used on input line 68.
 
 (pdftex.def)             Requested size: 141.23524pt x 142.26378pt.
  [8]
-<imagens/durer.jpg, id=79, 1606.0pt x 1232.605pt>
+<imagens/durer.jpg, id=82, 1606.0pt x 1232.605pt>
 File: imagens/durer.jpg Graphic file (type jpg)
  <use imagens/durer.jpg>
-Package pdftex.def Info: imagens/durer.jpg used on input line 76.
+Package pdftex.def Info: imagens/durer.jpg used on input line 77.
 (pdftex.def)             Requested size: 259.48932pt x 199.16928pt.
 
 [9 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/P
@@ -626,25 +626,25 @@ r de Imagens 2D/Produções/TCC/imagens/SutherlandsVW-Skinned-Referenced.jpg> <
 D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produ
 ções/TCC/imagens/Milkjug-Wireframe-1.png> <D:/Dropbox/UESC/TCC - Reconstruç�
 �o de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/Milkjug-Wirefra
-me-2.png>] <imagens/cenaTeste1.png, id=87, 542.025pt x 542.025pt>
+me-2.png>] <imagens/cenaTeste1.png, id=90, 542.025pt x 542.025pt>
 File: imagens/cenaTeste1.png Graphic file (type png)
 
 <use imagens/cenaTeste1.png>
-Package pdftex.def Info: imagens/cenaTeste1.png used on input line 97.
+Package pdftex.def Info: imagens/cenaTeste1.png used on input line 98.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
 
-<imagens/cenaTeste2.png, id=88, 542.025pt x 542.025pt>
+<imagens/cenaTeste2.png, id=91, 542.025pt x 542.025pt>
 File: imagens/cenaTeste2.png Graphic file (type png)
 
 <use imagens/cenaTeste2.png>
-Package pdftex.def Info: imagens/cenaTeste2.png used on input line 102.
+Package pdftex.def Info: imagens/cenaTeste2.png used on input line 103.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
 
-<imagens/cenaTeste3.png, id=89, 542.025pt x 542.025pt>
+<imagens/cenaTeste3.png, id=92, 542.025pt x 542.025pt>
 File: imagens/cenaTeste3.png Graphic file (type png)
 
 <use imagens/cenaTeste3.png>
-Package pdftex.def Info: imagens/cenaTeste3.png used on input line 107.
+Package pdftex.def Info: imagens/cenaTeste3.png used on input line 108.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
  [10 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
 /Produções/TCC/imagens/durer.jpg>])
@@ -656,7 +656,7 @@ ns 2D/Produções/TCC/imagens/cenaTeste2.png> <D:/Dropbox/UESC/TCC - Reconstru�
 �ão de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/cenaTeste3.pn
 g>]
 Cap\'{\i }tulo 4.
-<imagens/projecaoParalela.jpg, id=103, 1018.80624pt x 1021.8175pt>
+<imagens/projecaoParalela.jpg, id=106, 1018.80624pt x 1021.8175pt>
 File: imagens/projecaoParalela.jpg Graphic file (type jpg)
 
 <use imagens/projecaoParalela.jpg>
@@ -665,7 +665,7 @@ Package pdftex.def Info: imagens/projecaoParalela.jpg used on input line 20.
  [12
 
 ]
-<imagens/projecaoConica.jpg, id=107, 1412.27625pt x 737.75626pt>
+<imagens/projecaoConica.jpg, id=110, 1412.27625pt x 737.75626pt>
 File: imagens/projecaoConica.jpg Graphic file (type jpg)
 
 <use imagens/projecaoConica.jpg>
@@ -687,7 +687,7 @@ Cap\'{\i }tulo 5.
 [18
 
 ]
-<imagens/cenaExemploUnicoPontoPorPlano.png, id=128, 633.86812pt x 402.00188pt>
+<imagens/cenaExemploUnicoPontoPorPlano.png, id=131, 633.86812pt x 402.00188pt>
 File: imagens/cenaExemploUnicoPontoPorPlano.png Graphic file (type png)
 
 <use imagens/cenaExemploUnicoPontoPorPlano.png>
@@ -695,7 +695,7 @@ Package pdftex.def Info: imagens/cenaExemploUnicoPontoPorPlano.png used on inpu
 t line 27.
 (pdftex.def)             Requested size: 246.74332pt x 156.49014pt.
 
-<imagens/pontosMesmoPlano.png, id=129, 368.1253pt x 274.02374pt>
+<imagens/pontosMesmoPlano.png, id=132, 368.1253pt x 274.02374pt>
 File: imagens/pontosMesmoPlano.png Graphic file (type png)
 
 <use imagens/pontosMesmoPlano.png>
@@ -708,110 +708,110 @@ agens/pontosMesmoPlano.png>])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\capitulos/osSoftwares.tex" [21]
 Cap\'{\i }tulo 6.
-<imagens/programaComBule.png, id=142, 526.96875pt x 526.96875pt>
-File: imagens/programaComBule.png Graphic file (type png)
+[22
 
-<use imagens/programaComBule.png>
-Package pdftex.def Info: imagens/programaComBule.png used on input line 20.
-(pdftex.def)             Requested size: 170.71602pt x 170.71652pt.
- [22
+] <imagens/printAppMinimosQuadrados.png, id=148, 536.0025pt x 491.58656pt>
+File: imagens/printAppMinimosQuadrados.png Graphic file (type png)
 
-]
-<imagens/mathematics1.png, id=146, 842.39719pt x 473.51906pt>
+<use imagens/printAppMinimosQuadrados.png>
+Package pdftex.def Info: imagens/printAppMinimosQuadrados.png used on input lin
+e 22.
+(pdftex.def)             Requested size: 186.1397pt x 170.71652pt.
+
+<imagens/mathematics1.png, id=149, 842.39719pt x 473.51906pt>
 File: imagens/mathematics1.png Graphic file (type png)
 
 <use imagens/mathematics1.png>
-Package pdftex.def Info: imagens/mathematics1.png used on input line 29.
+Package pdftex.def Info: imagens/mathematics1.png used on input line 31.
 (pdftex.def)             Requested size: 253.08101pt x 142.26378pt.
 
-Overfull \hbox (6.24617pt too wide) in paragraph at lines 36--37
+Overfull \hbox (6.24617pt too wide) in paragraph at lines 38--39
 []\OT1/cmr/m/n/12 Este apli-ca-tivo esta dis-ponvel em $\OMS/cmsy/m/n/12 h\O
 T1/cmr/m/n/12 https : / / github . com / ivancezanne / TCC / tree /
  []
 
 [23 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/
-Produções/TCC/imagens/programaComBule.png> <D:/Dropbox/UESC/TCC - Reconstruç
-ão de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/mathematics1.p
-ng>] <imagens/printApp3D.png, id=152, 526.96875pt x 376.40625pt>
+Produções/TCC/imagens/printAppMinimosQuadrados.png> <D:/Dropbox/UESC/TCC - Re
+construção de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/mathe
+matics1.png>] <imagens/printApp3D.png, id=155, 526.96875pt x 376.40625pt>
 File: imagens/printApp3D.png Graphic file (type png)
 
 <use imagens/printApp3D.png>
-Package pdftex.def Info: imagens/printApp3D.png used on input line 45.
+Package pdftex.def Info: imagens/printApp3D.png used on input line 47.
 (pdftex.def)             Requested size: 199.17271pt x 142.26378pt.
 
-<imagens/printApp3D-renderizar.png, id=153, 528.47438pt x 380.17032pt>
+<imagens/printApp3D-renderizar.png, id=156, 528.47438pt x 380.17032pt>
 File: imagens/printApp3D-renderizar.png Graphic file (type png)
 
 <use imagens/printApp3D-renderizar.png>
-Package pdftex.def Info: imagens/printApp3D-renderizar.png used on input line 5
-9.
+Package pdftex.def Info: imagens/printApp3D-renderizar.png used on input line 6
+1.
 (pdftex.def)             Requested size: 197.76614pt x 142.26378pt.
 
-<imagens/printApp3D-cores.png, id=154, 529.22719pt x 378.66469pt>
+<imagens/printApp3D-cores.png, id=157, 529.22719pt x 378.66469pt>
 File: imagens/printApp3D-cores.png Graphic file (type png)
 
 <use imagens/printApp3D-cores.png>
-Package pdftex.def Info: imagens/printApp3D-cores.png used on input line 64.
+Package pdftex.def Info: imagens/printApp3D-cores.png used on input line 66.
 (pdftex.def)             Requested size: 198.83116pt x 142.26378pt.
-
-Overfull \hbox (7.48643pt too wide) in paragraph at lines 71--72
+ [24 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
+/Produções/TCC/imagens/printApp3D.png> <D:/Dropbox/UESC/TCC - Reconstrução 
+de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/printApp3D-renderi
+zar.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagen
+s 2D/Produções/TCC/imagens/printApp3D-cores.png>]
+Overfull \hbox (7.48643pt too wide) in paragraph at lines 73--74
 []\OT1/cmr/m/n/12 Este apli-ca-tivo pode ser en-con-trado em $\OMS/cmsy/m/n/12 
 h\OT1/cmr/m/n/12 https : / / github . com / ivancezanne / TCC /
  []
 
-[24 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/
-Produções/TCC/imagens/printApp3D.png> <D:/Dropbox/UESC/TCC - Reconstrução d
-e Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/printApp3D-renderiz
-ar.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens
- 2D/Produções/TCC/imagens/printApp3D-cores.png>]
-<imagens/printAppReconstrucao.png, id=159, 353.82187pt x 195.73125pt>
+<imagens/printAppReconstrucao.png, id=162, 353.82187pt x 195.73125pt>
 File: imagens/printAppReconstrucao.png Graphic file (type png)
 
 <use imagens/printAppReconstrucao.png>
-Package pdftex.def Info: imagens/printAppReconstrucao.png used on input line 80
+Package pdftex.def Info: imagens/printAppReconstrucao.png used on input line 82
 .
 (pdftex.def)             Requested size: 205.7351pt x 113.81102pt.
 
-<imagens/printAppReconstrucaoInicio.png, id=160, 418.56375pt x 472.01344pt>
+<imagens/printAppReconstrucaoInicio.png, id=163, 418.56375pt x 472.01344pt>
 File: imagens/printAppReconstrucaoInicio.png Graphic file (type png)
 
 <use imagens/printAppReconstrucaoInicio.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoInicio.png used on input l
-ine 92.
+ine 94.
 (pdftex.def)             Requested size: 100.92358pt x 113.81102pt.
 
-<imagens/printAppReconstrucaoPrompt.png, id=161, 418.56375pt x 472.01344pt>
+<imagens/printAppReconstrucaoPrompt.png, id=164, 418.56375pt x 472.01344pt>
 File: imagens/printAppReconstrucaoPrompt.png Graphic file (type png)
 
 <use imagens/printAppReconstrucaoPrompt.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoPrompt.png used on input l
-ine 97.
+ine 99.
 (pdftex.def)             Requested size: 100.92358pt x 113.81102pt.
 
-Underfull \hbox (badness 1924) in paragraph at lines 97--97
+Underfull \hbox (badness 1924) in paragraph at lines 99--99
 []\OT1/cmr/m/n/10 (b) |Apos o \OT1/cmr/m/it/10 click\OT1/cmr/m/n/10 , um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/it/10 prompt \OT1/cmr/m/n/10 so-li-cita da-dos
  []
 
 
-<imagens/printAppReconstrucaoPromptInteresse.png, id=162, 418.56375pt x 472.013
+<imagens/printAppReconstrucaoPromptInteresse.png, id=165, 418.56375pt x 472.013
 44pt>
 File: imagens/printAppReconstrucaoPromptInteresse.png Graphic file (type png)
  <use imagens/printAppReconstrucaoPromptInteresse.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoPromptInteresse.png used o
-n input line 102.
+n input line 104.
 (pdftex.def)             Requested size: 100.92358pt x 113.81102pt.
 
-<imagens/printAppReconstrucaoPronto.png, id=163, 418.56375pt x 472.01344pt>
+<imagens/printAppReconstrucaoPronto.png, id=166, 418.56375pt x 472.01344pt>
 File: imagens/printAppReconstrucaoPronto.png Graphic file (type png)
 
 <use imagens/printAppReconstrucaoPronto.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoPronto.png used on input l
-ine 107.
+ine 109.
 (pdftex.def)             Requested size: 100.92358pt x 113.81102pt.
  [25 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
 /Produções/TCC/imagens/printAppReconstrucao.png> <D:/Dropbox/UESC/TCC - Recon
@@ -822,66 +822,189 @@ artir de Imagens 2D/Produções/TCC/imagens/printAppReconstrucaoPrompt.png> <D:
 ões/TCC/imagens/printAppReconstrucaoPromptInteresse.png> <D:/Dropbox/UESC/TCC 
 - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/p
 rintAppReconstrucaoPronto.png>]
-<imagens/printAppReconstrucaoReconstrucao.png, id=172, 418.56375pt x 472.01344p
+<imagens/printAppReconstrucaoReconstrucao.png, id=176, 418.56375pt x 472.01344p
 t>
 File: imagens/printAppReconstrucaoReconstrucao.png Graphic file (type png)
  <use imagens/printAppReconstrucaoReconstrucao.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoReconstrucao.png used on i
-nput line 118.
+nput line 120.
 (pdftex.def)             Requested size: 126.15128pt x 142.26378pt.
 
-<imagens/printAppReconstrucaoEscolhaManual.png, id=173, 418.56375pt x 472.01344
+<imagens/printAppReconstrucaoEscolhaManual.png, id=177, 418.56375pt x 472.01344
 pt>
 File: imagens/printAppReconstrucaoEscolhaManual.png Graphic file (type png)
  <use imagens/printAppReconstrucaoEscolhaManual.png>
 Package pdftex.def Info: imagens/printAppReconstrucaoEscolhaManual.png used on 
-input line 127.
+input line 129.
 (pdftex.def)             Requested size: 126.15128pt x 142.26378pt.
-
-Overfull \hbox (31.11674pt too wide) in paragraph at lines 134--135
+ [26 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
+/Produções/TCC/imagens/printAppReconstrucaoReconstrucao.png> <D:/Dropbox/UESC
+/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imag
+ens/printAppReconstrucaoEscolhaManual.png>]
+Overfull \hbox (31.11674pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/12 Este apli-ca-tivo de re-cons-truc~ao esta dis-ponvel em $
 \OMS/cmsy/m/n/12 h\OT1/cmr/m/n/12 https : / / github . com / ivancezanne /
  []
 
 )
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\capitulos/resultadosEDiscussoes.tex" [26 <D:/Dropbox/UESC/TCC - Re
-construção de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/print
-AppReconstrucaoReconstrucao.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objet
-os 3D a Partir de Imagens 2D/Produções/TCC/imagens/printAppReconstrucaoEscolh
-aManual.png>]
+duções\TCC\capitulos/resultadosEDiscussoes.tex" [27]
 Cap\'{\i }tulo 7.
-[27
-
-] <imagens/printTesteCubo.png, id=183, 406.51875pt x 406.51875pt>
+<imagens/printTesteCubo.png, id=186, 406.51875pt x 406.51875pt>
 File: imagens/printTesteCubo.png Graphic file (type png)
 
 <use imagens/printTesteCubo.png>
-Package pdftex.def Info: imagens/printTesteCubo.png used on input line 100.
+Package pdftex.def Info: imagens/printTesteCubo.png used on input line 92.
 (pdftex.def)             Requested size: 128.03546pt x 128.0374pt.
 
-<imagens/printTestePiramide.png, id=184, 406.51875pt x 406.51875pt>
+<imagens/printTestePiramide.png, id=187, 406.51875pt x 406.51875pt>
 File: imagens/printTestePiramide.png Graphic file (type png)
 
 <use imagens/printTestePiramide.png>
-Package pdftex.def Info: imagens/printTestePiramide.png used on input line 105.
-
+Package pdftex.def Info: imagens/printTestePiramide.png used on input line 97.
 (pdftex.def)             Requested size: 128.03546pt x 128.0374pt.
 
-<imagens/printTesteCuboReduzido.png, id=185, 406.51875pt x 406.51875pt>
+<imagens/printTesteCuboReduzido.png, id=188, 406.51875pt x 406.51875pt>
 File: imagens/printTesteCuboReduzido.png Graphic file (type png)
 
 <use imagens/printTesteCuboReduzido.png>
 Package pdftex.def Info: imagens/printTesteCuboReduzido.png used on input line 
-110.
+102.
 (pdftex.def)             Requested size: 128.03546pt x 128.0374pt.
- [28 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
+ [28
+
+] [29]
+<imagens/printTesteCuboMeshLab.png, id=195, 376.40625pt x 376.40625pt>
+File: imagens/printTesteCuboMeshLab.png Graphic file (type png)
+
+<use imagens/printTesteCuboMeshLab.png>
+Package pdftex.def Info: imagens/printTesteCuboMeshLab.png used on input line 1
+14.
+(pdftex.def)             Requested size: 128.0396pt x 128.0374pt.
+
+<imagens/printTestePiramideMeshLab.png, id=196, 376.40625pt x 376.40625pt>
+File: imagens/printTestePiramideMeshLab.png Graphic file (type png)
+
+<use imagens/printTestePiramideMeshLab.png>
+Package pdftex.def Info: imagens/printTestePiramideMeshLab.png used on input li
+ne 119.
+(pdftex.def)             Requested size: 128.0396pt x 128.0374pt.
+
+<imagens/printTesteCuboReduzidoMeshLab.png, id=197, 376.40625pt x 376.40625pt>
+File: imagens/printTesteCuboReduzidoMeshLab.png Graphic file (type png)
+
+<use imagens/printTesteCuboReduzidoMeshLab.png>
+Package pdftex.def Info: imagens/printTesteCuboReduzidoMeshLab.png used on inpu
+t line 124.
+(pdftex.def)             Requested size: 128.0396pt x 128.0374pt.
+ [30 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
 /Produções/TCC/imagens/printTesteCubo.png> <D:/Dropbox/UESC/TCC - Reconstruç
 ão de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/printTestePira
 mide.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Image
-ns 2D/Produções/TCC/imagens/printTesteCuboReduzido.png>])
+ns 2D/Produções/TCC/imagens/printTesteCuboReduzido.png> <D:/Dropbox/UESC/TCC 
+- Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/p
+rintTesteCuboMeshLab.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a
+ Partir de Imagens 2D/Produções/TCC/imagens/printTestePiramideMeshLab.png> <D
+:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produ�
+�ões/TCC/imagens/printTesteCuboReduzidoMeshLab.png>]
+<imagens/printTesteFusca.png, id=207, 730.22812pt x 486.31688pt>
+File: imagens/printTesteFusca.png Graphic file (type png)
+
+<use imagens/printTesteFusca.png>
+Package pdftex.def Info: imagens/printTesteFusca.png used on input line 144.
+(pdftex.def)             Requested size: 384.50089pt x 256.0748pt.
+
+<imagens/printResultadoFusca1.png, id=208, 357.58594pt x 357.58594pt>
+File: imagens/printResultadoFusca1.png Graphic file (type png)
+
+<use imagens/printResultadoFusca1.png>
+Package pdftex.def Info: imagens/printResultadoFusca1.png used on input line 15
+4.
+(pdftex.def)             Requested size: 113.80782pt x 113.81102pt.
+
+Underfull \hbox (badness 3219) in paragraph at lines 154--154
+[]\OT1/cmr/m/n/10 (a) |Vis~ao da la-te-ral es-
+ []
+
+<imagens/printResultadoFusca2.png, id=209, 357.58594pt x 357.58594pt>
+File: imagens/printResultadoFusca2.png Graphic file (type png)
+
+<use imagens/printResultadoFusca2.png>
+Package pdftex.def Info: imagens/printResultadoFusca2.png used on input line 15
+9.
+(pdftex.def)             Requested size: 113.80782pt x 113.81102pt.
+
+Underfull \hbox (badness 1286) in paragraph at lines 159--159
+\OT1/cmr/m/n/10 truc~ao do \OT1/cmr/m/it/10 VW Be-e-tle \OT1/cmr/m/n/10 de
+ []
+
+<imagens/printResultadoFusca3.png, id=210, 376.40625pt x 376.40625pt>
+File: imagens/printResultadoFusca3.png Graphic file (type png)
+
+<use imagens/printResultadoFusca3.png>
+Package pdftex.def Info: imagens/printResultadoFusca3.png used on input line 16
+4.
+(pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
+ [31 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
+/Produções/TCC/imagens/printTesteFusca.png>] <imagens/printTesteDurer.png, id
+=216, 588.69937pt x 451.6875pt>
+File: imagens/printTesteDurer.png Graphic file (type png)
+
+<use imagens/printTesteDurer.png>
+Package pdftex.def Info: imagens/printTesteDurer.png used on input line 177.
+(pdftex.def)             Requested size: 370.8556pt x 284.52756pt.
+
+<imagens/printResultadoDurerReverso.png, id=217, 376.40625pt x 376.40625pt>
+File: imagens/printResultadoDurerReverso.png Graphic file (type png)
+
+<use imagens/printResultadoDurerReverso.png>
+Package pdftex.def Info: imagens/printResultadoDurerReverso.png used on input l
+ine 187.
+(pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
+
+<imagens/printResultadoDurerEsquerda.png, id=218, 376.40625pt x 376.40625pt>
+File: imagens/printResultadoDurerEsquerda.png Graphic file (type png)
+
+<use imagens/printResultadoDurerEsquerda.png>
+Package pdftex.def Info: imagens/printResultadoDurerEsquerda.png used on input 
+line 192.
+(pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
+
+<imagens/printResultadoDurerFrente.png, id=219, 376.40625pt x 376.40625pt>
+File: imagens/printResultadoDurerFrente.png Graphic file (type png)
+
+<use imagens/printResultadoDurerFrente.png>
+Package pdftex.def Info: imagens/printResultadoDurerFrente.png used on input li
+ne 197.
+(pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\OT1/cmr/m/n/10 (c) |Re-cons-truc~ao sob
+ []
+
+[32 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/
+Produções/TCC/imagens/printResultadoFusca1.png> <D:/Dropbox/UESC/TCC - Recons
+trução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/printResu
+ltadoFusca2.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir d
+e Imagens 2D/Produções/TCC/imagens/printResultadoFusca3.png> <D:/Dropbox/UESC
+/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imag
+ens/printTesteDurer.png>]
+<imagens/printBuleDispensada.png, id=227, 519.44063pt x 438.13687pt>
+File: imagens/printBuleDispensada.png Graphic file (type png)
+
+<use imagens/printBuleDispensada.png>
+Package pdftex.def Info: imagens/printBuleDispensada.png used on input line 208
+.
+(pdftex.def)             Requested size: 269.86497pt x 227.62204pt.
+ [33 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
+/Produções/TCC/imagens/printResultadoDurerReverso.png> <D:/Dropbox/UESC/TCC -
+ Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/pr
+intResultadoDurerEsquerda.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos
+ 3D a Partir de Imagens 2D/Produções/TCC/imagens/printResultadoDurerFrente.pn
+g> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/P
+roduções/TCC/imagens/printBuleDispensada.png>] [34])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\TCC.bbl" [29] [30
+duções\TCC\TCC.bbl" [35] [36
 
 ]
 Overfull \hbox (13.79701pt too wide) in paragraph at lines 145--150
@@ -889,14 +1012,14 @@ Overfull \hbox (13.79701pt too wide) in paragraph at lines 145--150
 ned-[]and-[]rendered-[]was-[]a-[]vw-[]beetle-[]2706861[]$ 
  []
 
-) [31]
+) [37]
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\TCC.aux") ) 
 Here is how much of TeX's memory you used:
- 4629 strings out of 493921
- 72185 string characters out of 3147259
- 129916 words of memory out of 3000000
- 7792 multiletter control sequences out of 15000+200000
+ 4714 strings out of 493921
+ 74944 string characters out of 3147259
+ 132190 words of memory out of 3000000
+ 7865 multiletter control sequences out of 15000+200000
  11629 words of font info for 41 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  44i,10n,48p,1245b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -915,9 +1038,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TCC.pdf (42 pages, 4862711 bytes).
+Output written on TCC.pdf (49 pages, 6658625 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

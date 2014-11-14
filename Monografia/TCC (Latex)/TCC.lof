@@ -22,7 +22,7 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Os pontos $P_i$ pertencem \IeC {\`a} reta de proje\IeC {\c c}\IeC {\~a}o de $P$, mas suas coordenadas Z s\IeC {\~a}o diferentes da coordenada Z do ponto $P$\relax }}{19}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \IeC {\'E} percept\IeC {\'\i }vel que os pontos demarcados com um "X" t\IeC {\^e}m a mesma coordenada Z no espa\IeC {\c c}o\relax }}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces O programa de regress\IeC {\~a}o de rasteriza\IeC {\c c}\IeC {\~a}o com regi\IeC {\~a}o de interesse e coeficientes ressaltados\relax }}{23}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces O programa de regress\IeC {\~a}o de rasteriza\IeC {\c c}\IeC {\~a}o com uma aproxima\IeC {\c c}\IeC {\~a}o de exemplo\relax }}{23}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Reta anal\IeC {\'\i }tica correspondente \IeC {\`a} linha da regi\IeC {\~a}o demarcada na figura \ref {figMinQuadInterface}\relax }}{23}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Aplicativo de proje\IeC {\c c}\IeC {\~a}o 3D com a famosa malha Suzanne\relax }}{24}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Op\IeC {\c c}\IeC {\~o}es adicionais do aplicativo de proje\IeC {\c c}\IeC {\~a}o 3D de aux\IeC {\'\i }lio \IeC {\`a} visualiza\IeC {\c c}\IeC {\~a}o\relax }}{24}
@@ -37,7 +37,22 @@
 \contentsline {figure}{\numberline {6.7}{\ignorespaces \textit {Prompt} com dados necess\IeC {\'a}rio \IeC {\`a} reconstru\IeC {\c c}\IeC {\~a}o\relax }}{26}
 \contentsline {figure}{\numberline {6.8}{\ignorespaces \textit {Prompt} para escolha manual da coordenada Z\relax }}{26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Panoramas das reconstru\IeC {\c c}\IeC {\~o}es de valida\IeC {\c c}\IeC {\~a}o\relax }}{28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Panorama para a reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 1}}}{28}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 2}}}{28}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 3}}}{28}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Panoramas das reconstru\IeC {\c c}\IeC {\~o}es de valida\IeC {\c c}\IeC {\~a}o\relax }}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Panorama para a reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 1}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 2}}}{30}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Panorama da reconstru\IeC {\c c}\IeC {\~a}o da cena de valida\IeC {\c c}\IeC {\~a}o 3}}}{30}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Reconstru\IeC {\c c}\IeC {\~o}es validadoras (faces inseridas manualmente)\relax }}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o da cena 1}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o da cena 2}}}{30}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o da cena 3}}}{30}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Panorama da reconstru\IeC {\c c}\IeC {\~a}o do \textit {VW Beetle} de Sutherland\relax }}{31}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces A reconstru\IeC {\c c}\IeC {\~a}o do \textit {VW Beetle} de Sutherland (Faces inseridas manualmente)\relax }}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vis\IeC {\~a}o da lateral esquerda do \textit {VW Beetle} de Sutherland reconstru\IeC {\'\i }do}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vis\IeC {\~a}o frontal da reconstru\IeC {\c c}\IeC {\~a}o do \textit {VW Beetle} de Sutherland}}}{32}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vis\IeC {\~a}o da lateral direita do \textit {VW Beetle} de Sutherland reconstru\IeC {\'\i }do}}}{32}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Panorama da reconstru\IeC {\c c}\IeC {\~a}o da litografia do Durer\relax }}{32}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces A reconstru\IeC {\c c}\IeC {\~a}o da cena da litografia de Durer (Faces inseridas manualmente)\relax }}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob ponto de vista reverso em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} cena da litografia de Durer}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o em vista lateral da cena da litografia de Durer}}}{33}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob mesmo ponto de vista da cena da litografia de Durer}}}{33}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Referenciamento na imagem do Bule de Newell\relax }}{33}

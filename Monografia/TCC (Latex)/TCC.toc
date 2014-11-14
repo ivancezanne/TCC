@@ -23,11 +23,11 @@
 \contentsline {chapter}{\numberline {5}A T\IeC {\'e}cnica de Reconstru\IeC {\c c}\IeC {\~a}o}{18}
 \contentsline {chapter}{\numberline {6}Os Softwares}{22}
 \contentsline {section}{\numberline {6.1}Aplicativo de detec\IeC {\c c}\IeC {\~a}o de retas}{22}
-\contentsline {section}{\numberline {6.2}Aplicativo de visualiza\IeC {\c c}\IeC {\~a}o 3D}{23}
+\contentsline {section}{\numberline {6.2}Aplicativo de visualiza\IeC {\c c}\IeC {\~a}o 3D}{24}
 \contentsline {section}{\numberline {6.3}Aplicativo de Reconstru\IeC {\c c}\IeC {\~a}o}{25}
-\contentsline {chapter}{\numberline {7}Resultados, Discuss\IeC {\~o}es e Trabalhos Futuros}{27}
-\contentsline {section}{\numberline {7.1}Testes validadores}{27}
-\contentsline {section}{\numberline {7.2}Resultados}{29}
-\contentsline {section}{\numberline {7.3}Discuss\IeC {\~o}es}{29}
-\contentsline {section}{\numberline {7.4}Trabalhos Futuros}{29}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}
+\contentsline {chapter}{\numberline {7}Resultados, Discuss\IeC {\~o}es e Trabalhos Futuros}{28}
+\contentsline {section}{\numberline {7.1}Testes validadores}{28}
+\contentsline {section}{\numberline {7.2}Resultados}{31}
+\contentsline {section}{\numberline {7.3}Discuss\IeC {\~o}es}{34}
+\contentsline {section}{\numberline {7.4}Trabalhos Futuros}{35}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}

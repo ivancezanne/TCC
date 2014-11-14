@@ -1,7 +1,7 @@
 \chapter{Os Softwares}
 	\label{capituloSoftwares}
 
-	Ao decorrer do desenvolvimento deste trabalho, fora o software que implementa a técnica principal deste trabalho, foram sendo necessário que técnicas adjuntas à da estudada aqui também fossem implementadas em softwares a fim de facilitar comprovações de resultados e automatizações de tarefas auxiliares ao projeto; além de agregar determinada riqueza de esforço e de ferramentas a este trabalho de conclusão de curso.
+	Ao decorrer deste trabalho, fora o software que implementa a técnica de reconstrução descrita nesta monografia, foram sendo necessário que técnicas adjuntas à da estudada aqui também fossem implementadas em softwares a fim de facilitar comprovações de resultados e automatizações de tarefas auxiliares ao projeto; além de agregar determinada riqueza de esforço e de ferramentas a este trabalho de conclusão de curso.
 	
 	A seguir são apresentados os exemplos mais representativos dos softwares desenvolvidos ao longo do projeto.
 	
@@ -13,12 +13,14 @@
 	
 	O Métodos dos Mínimos Quadrados é uma técnica de regressão linear que busca ajustar corretamente coeficientes de uma curva algébrica de forma que estes minimizem o somatório do quadrado da diferença entre os valores dos dados reais e os valores estimados, minimizando o erro de aproximação.
 	
-	Com uma interface apropriada, pôde-se carregar uma imagem e, através da demarcação manual de uma região de interesse na mesma, pontos da linha do sistema de referência foram detectados pela sua cor e submetidos ao método dos mínimos quadrados (figura \ref{figMinQuadInterface}).
+	Com uma interface apropriada, pôde-se carregar uma imagem e, através da demarcação manual de uma região de interesse na mesma (demarcada por um retângulo vermelho), pontos da linha do sistema de referência foram detectados pela sua cor preta e submetidos ao método dos mínimos quadrados (figura \ref{figMinQuadInterface}).
+	
+	Após a aproximação são exibidos, na parte superior da janela, os coeficientes encontrados e é plotada, sobre a imagem, reta encontrada.
 	
 	\begin{figure}[!htb]
 		\centering
-		\includegraphics[height=6cm]{imagens/programaComBule.png}
-		\caption{O programa de regressão de rasterização com região de interesse e coeficientes ressaltados}
+		\includegraphics[height=6cm]{imagens/printAppMinimosQuadrados.png}
+		\caption{O programa de regressão de rasterização com uma aproximação de exemplo}
 		\label{figMinQuadInterface}
 	\end{figure}
 
