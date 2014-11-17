@@ -60,6 +60,12 @@ Disponível em
 {HUGHES, J.~F. et al. \emph{An Ancient Renderer Made Modern}. 3. ed. [S.l.]:
   Addison-Wesley Professional, 2013. 61-80~p.}
 
+\bibitem[Kubert, Szabo e Giulieri 1968]{firstCVWork}
+\abntrefinfo{Kubert, Szabo e Giulieri}{KUBERT; SZABO; GIULIERI}{1968}
+{KUBERT, B.~R.; SZABO, J.; GIULIERI, S. The perspective representation of
+  functions of two variables.
+\emph{J. ACM}, ACM, New York, NY, USA, v.~15, n.~2, p. 193--204, abr. 1968.}
+
 \bibitem[Langer 2010]{lectureLeastSquares}
 \abntrefinfo{Langer}{LANGER}{2010a}
 {LANGER, M. \emph{Lecture 18: Least Squares, Singular Value Decomposition}.
@@ -119,19 +125,6 @@ Monografia (Graduação) --- Departamento de Engenharia Mecatrônica e de
 \abntrefinfo{Pottmann et al.}{POTTMANN et al.}{2007}
 {POTTMANN, H. et al. \emph{Projections}. [S.l.]: Bentley Institute Press, 2007.
   23-65~p.}
-
-\bibitem[ROSENFELD 1969]{firstProcessingWork}
-\abntrefinfo{ROSENFELD}{ROSENFELD}{1969}
-{ROSENFELD, A. Picture processing by computer.
-\emph{ACM Computing Surveys}, v.~1, n.~3, p. 147--176, 1969.}
-
-\bibitem[Sorkine-Hornung et al. 2012]{disneyProcessingExample}
-\abntrefinfo{Sorkine-Hornung et al.}{SORKINE-HORNUNG et al.}{2012}
-{SORKINE-HORNUNG, A. et al. \emph{Non-linear Disparity Mapping for Stereoscopic
-  3D}. 2012.
-Disponível em
-  \url{http://www.disneyresearch.com/publication/non-linear-disparity-mapping-for-stereoscopic-3d/}
-  Acesso em 27 Ago 2014.}
 
 \bibitem[Szenberg 2001]{szenbergDoutorado}
 \abntrefinfo{Szenberg}{SZENBERG}{2001}

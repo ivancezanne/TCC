@@ -1,7 +1,7 @@
 \chapter{Resultados, Discussões e Trabalhos Futuros}
 	\label{capituloFinal}
 	
-	Em posse da técnica descrita no capítulo \ref{capituloReconstrucao} e dos softwares expostos no capítulo \ref{capituloSoftwares}, foi possível obter resultados com certo grau de corretude e com grande potencial de melhora em sua exatidão.
+	Em posse da técnica descrita no capítulo \ref{capituloReconstrucao} e dos \textit{softwares} expostos no capítulo \ref{capituloSoftwares}, foi possível obter resultados com certo grau de corretude e com grande potencial de melhora em sua exatidão.
 	
 	A seguir são apresentados testes, resultados e discussões acerca das atividades desenvolvidas neste trabalho.
 	
@@ -135,7 +135,7 @@
 		\section{Resultados}
 			\label{secaoResultados}
 			
-			Após os testes validadores, nos quais a técnica de reconstrução se mostrou factível, buscou-se a reconstrução das imagens descritas na seção \ref{secaoConjuntoDeDados}. Nem todas as imagens foram possíveis de serem reconstruídas, no entanto, pôde-se obter certo resultado com as imagens do \textit{VW Beetle} de Sutherland e da litografia de Durer.
+			Após os testes validadores, nos quais a técnica de reconstrução se mostrou factível, buscou-se a reconstrução das imagens descritas na seção \ref{secaoConjuntoDeDados}. Nem todas as imagens foram possíveis de serem reconstruídas, no entanto, pôde-se obter certo resultado com as imagens do \textit{VW Beetle} de Sutherland e da litografia de Dürer.
 			
 			Utilizando a preparação exposta na figura \ref{printTesteFusca}, uma tolerância projetiva igual a $2$, um incremento de $0.002$ e escolha de coordenada Z mais próxima ao último valor analisado, a reconstrução dos pontos de interesse demarcados para a imagem do \textit{VW Beetle} de Sutherland encontram-se na figura \ref{resultadosFuscaTriplo}.
 			
@@ -170,28 +170,28 @@
 			
 			De tal forma, conclui-se que a deformação é causada por um erro que ainda persiste na determinação das coordenadas Z. Tal erro se dá pois, além dos critérios finais de convergência serem arbitrários, eles, no máximo, seguem uma tendência de crescimento linear; ao passo que a curvatura (crescimento dos valores da coordenada Z para o capô do carro) segue um tendência próxima à logarítmica.
 			
-			Para a litografia de Durer, a melhor configuração foi com tolerância projetiva igual a 3, incremento de 0.002 e escolha da coordenada Z mais próxima à média dos valore possíveis. Assim, com os dados para reconstrução expostos na figura \ref{printTesteDurer}, obteve-se os resultados da figura \ref{resultadosDurerTriplo}
+			Para a litografia de Dürer, a melhor configuração foi com tolerância projetiva igual a 3, incremento de 0.002 e escolha da coordenada Z mais próxima à média dos valore possíveis. Assim, com os dados para reconstrução expostos na figura \ref{printTesteDurer}, obtiveram-se os resultados da figura \ref{resultadosDurerTriplo}
 			
 			\begin{figure}[!htb]
 				\centering
 				\includegraphics[height=10cm]{imagens/printTesteDurer.png}
-				\caption{Panorama da reconstrução da litografia do Durer}
+				\caption{Panorama da reconstrução da litografia do Dürer}
 				\label{printTesteDurer}
 			\end{figure}
 			
 			\begin{figure}[!htb]
 				\centering
-				\subfloat[Reconstrução sob ponto de vista reverso em relação à cena da litografia de Durer]{
+				\subfloat[Reconstrução sob ponto de vista reverso em relação à cena da litografia de Dürer]{
 					\includegraphics[height=4cm]{imagens/printResultadoDurerReverso.png}
 					\label{resultadosDurer1}
 				}
 				\quad
-				\subfloat[Reconstrução em vista lateral da cena da litografia de Durer]{
+				\subfloat[Reconstrução em vista lateral da cena da litografia de Dürer]{
 					\includegraphics[height=4cm]{imagens/printResultadoDurerEsquerda.png}
 					\label{resultadosDurer2}
 				}
 				\quad
-				\subfloat[Reconstrução sob mesmo ponto de vista da cena da litografia de Durer]{
+				\subfloat[Reconstrução sob mesmo ponto de vista da cena da litografia de Dürer]{
 					\includegraphics[height=4cm]{imagens/printResultadoDurerFrente.png}
 					\label{resultadosDurer3}
 				}
@@ -201,7 +201,7 @@
 			
 			No caso da litografia do Durer, o ponto de vista da imagem corrobora para uma melhor convergência de valores para coordenada Z. Todavia, a demarcação das referências e pontos de interesse é muito difícil dada a pequena região e ausência de dados claros sobre dimensões. Assim, o resultado da reconstrução sofre distorções causadas por má catalogação de dados iniciais.
 			
-			A imagem do Bule de Newell foi dispensada pois, dada a necessidade de demarcação de pontos de referência, esta não possibilitava um bom referenciamento (vide figura \ref{imagemBuleDispensada}) devido à ausência de pontos interessantes nessa região e o fato de sua projeção não ser perspectiva, o que causaria a má calibração de câmera.
+			A imagem do Bule de Newell foi dispensada pois, dada a necessidade de demarcação de pontos de referência, esta não possibilitava um bom referenciamento (vide figura \ref{imagemBuleDispensada}) devido à ausência de pontos interessantes nessa região e o fato de sua projeção ser paralela, o que causaria a má calibração de câmera (que atende ao modelo em perspectiva).
 			
 			\begin{figure}[!htb]
 				\centering
@@ -217,9 +217,9 @@
 			
 			Nota-se que há uma série de limitações à técnica de reconstrução que, ao fim, causa certa imprecisão ou restrição nos resultados objetivados. A delimitação de uma área de busca fixa, por exemplo, impede que um conjunto maior de reconstruções seja executado; a metodologia de demarcação - por \textit{clicks} - é costumeiramente imprecisa; e a estratégia de eliminação da multiplicidade projetiva não fora tão eficaz quanto o necessário.
 			
-			De qualquer forma, a exemplo da litografia do Durer e da imagem do \textit{VW Beetle} de Sutherland, viu-se que as imagens não propiciaram uma boa catalogação de dados, uma vez que medidas eram inexistentes ou não correspondiam às medidas que o software requisitava; e, a exemplo da imagem do Bule de Newell, a isometria da projeção paralela impede o bom funcionamento da calibração de câmera necessária à reconstrução.
+			De qualquer forma, a exemplo da litografia do Dürer e da imagem do \textit{VW Beetle} de Sutherland, viu-se que as imagens não propiciaram uma boa catalogação de dados, uma vez que medidas eram inexistentes ou não correspondiam às medidas que o software requisitava; e, a exemplo da imagem do Bule de Newell, a isometria da projeção paralela impede o bom funcionamento da calibração de câmera necessária à reconstrução.
 			
-			Embora tenha-se notado que os dados utilizados para a reconstrução neste trabalho são insuficientes para uma reconstrução perfeita, pode-se concluir que o aprimoramento de uma técnica, baseada na descrita na seção \ref{appDeteccaoRetas}, de detecção de regiões de interesse parametrizáveis (retas, curvas ou superfícies) é uma promissora abordagem para uma reconstrução mais fiel dos objetos retratados; uma vez que restrições algébricas inerentes ao elemento geométrico detectado podem se aliar às restrições projetivas e resolver, com maior grau de verossimilhança, o problema da multiplicidade projetiva. Neste íterim, condições de simetria e repetições seriam, também, melhor aplicáveis.
+			Embora tenha-se notado que os dados utilizados para a reconstrução neste trabalho são insuficientes para uma reconstrução perfeita, pode-se concluir que o aprimoramento de uma técnica, baseada na descrita na seção \ref{appDeteccaoRetas}, de detecção de regiões de interesse parametrizáveis (retas, curvas ou superfícies) é uma promissora abordagem para uma reconstrução mais fiel dos objetos retratados; uma vez que restrições algébricas inerentes ao elemento geométrico detectado podem se aliar às restrições projetivas e resolver, com maior grau de verossimilhança, o problema da multiplicidade projetiva. Neste ínterim, condições de simetria e repetições seriam, também, melhor aplicáveis.
 			
 			Salienta-se, ainda, que o resultado gerado pelo \textit{software} de reconstrução é disponibilizado em arquivos de extensão PLY e, portanto, pode ser lido pelos principais programas de modelagem 3D; além disso, os \textit{softwares} anexos ao de reconstrução desempenham um bom auxílio a este último, o que faz deste trabalho um pacote contíguo de ferramentas computacionais direcionadas à reconstrução 3D.
 			
@@ -230,6 +230,6 @@
 		\section{Trabalhos Futuros}
 			\label{secaoTrabalhosFuturos}
 			
-			Como futura expansão deste trabalho está a já descrita integração da técnica de reconstrução com detecção de regiões descritíveis parametricamente. Além disso, focando o desenvolvimento desta técnica em um escopo mais específico, é possível obter melhor desempenho uma vez que, neste âmbito, a descrição prévia dos objetos reconstruídos seria facilitada e, portanto, mais rica.
+			Como futura expansão deste trabalho está a já descrita integração da técnica de reconstrução com a de detecção de regiões descritíveis parametricamente. Além disso, focando o desenvolvimento desta técnica em um escopo mais específico, é possível obter melhor desempenho uma vez que, neste âmbito, a descrição prévia dos objetos reconstruídos seria facilitada e, portanto, mais rica.
 			
 			Especificamente, melhorar e aplicar esta técnica de reconstrução em retratos de modelos arquitetônicos, de forma similar a \cite{3DFromLineDrawings}, a fim de possibilitar um estudo de restauro e documentação patrimonial mais rico é o próximo intento.

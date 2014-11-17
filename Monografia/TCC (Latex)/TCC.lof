@@ -1,7 +1,7 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Triangula\IeC {\c c}\IeC {\~a}o utilizada na geomtria epipolar\relax }}{5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Triangula\IeC {\c c}\IeC {\~a}o utilizada na geometria epipolar\relax }}{5}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces O \textit {VW Beetle} de Sutherland\relax }}{9}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textit {VW Beetle} de Sutherland renderizado \cite {renderingSutherlandVW}}}}{9}
@@ -11,16 +11,16 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bule de Leite de Newell convencional \cite {newellResearch}}}}{9}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bule de Leite de Newell suavizado \cite {newellResearch}}}}{9}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces A litografia de D\IeC {\"u}rer \cite {durerSite}\relax }}{10}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cenas para valida\IeC {\c c}\IeC {\~a}o da t\IeC {\'e}cnica de reconstru\IeC {\c c}\IeC {\~a}o\relax }}{11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cena espec\IeC {\'\i }fica 1, um cubo unit\IeC {\'a}rio}}}{11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cena espec\IeC {\'\i }fica 2, uma pir\IeC {\^a}mide regular equil\IeC {\'a}tera unit\IeC {\'a}ria}}}{11}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cena espec\IeC {\'\i }fica 3, um cubo de dimens\IeC {\~a}o $0.5$}}}{11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cenas para valida\IeC {\c c}\IeC {\~a}o da t\IeC {\'e}cnica de reconstru\IeC {\c c}\IeC {\~a}o\relax }}{10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cena espec\IeC {\'\i }fica 1, um cubo unit\IeC {\'a}rio}}}{10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cena espec\IeC {\'\i }fica 2, uma pir\IeC {\^a}mide regular equil\IeC {\'a}tera unit\IeC {\'a}ria}}}{10}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cena espec\IeC {\'\i }fica 3, um cubo de dimens\IeC {\~a}o $0.5$}}}{10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o paralela em \cite {archiGeoBook}\relax }}{13}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o c\IeC {\^o}nica em \cite {archiGeoBook}\relax }}{14}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Os pontos $P_i$ pertencem \IeC {\`a} reta de proje\IeC {\c c}\IeC {\~a}o de $P$, mas suas coordenadas Z s\IeC {\~a}o diferentes da coordenada Z do ponto $P$\relax }}{19}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \IeC {\'E} percept\IeC {\'\i }vel que os pontos demarcados com um "X" t\IeC {\^e}m a mesma coordenada Z no espa\IeC {\c c}o\relax }}{20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \IeC {\'E} percept\IeC {\'\i }vel que os pontos demarcados com um "X" t\IeC {\^e}m a mesma coordenada Z no espa\IeC {\c c}o\relax }}{19}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces O programa de regress\IeC {\~a}o de rasteriza\IeC {\c c}\IeC {\~a}o com uma aproxima\IeC {\c c}\IeC {\~a}o de exemplo\relax }}{23}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Reta anal\IeC {\'\i }tica correspondente \IeC {\`a} linha da regi\IeC {\~a}o demarcada na figura \ref {figMinQuadInterface}\relax }}{23}
@@ -34,7 +34,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Ap\IeC {\'o}s o \textit {click}, um \textit {prompt} solicita dados acerca do ponto}}}{25}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Pelos \textit {radio buttons}, o mesmo \textit {prompt} \IeC {\'e} utilizado para catalogar pontos de refer\IeC {\^e}ncia e de interesse}}}{25}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Uma cena completamente catalogada}}}{25}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces \textit {Prompt} com dados necess\IeC {\'a}rio \IeC {\`a} reconstru\IeC {\c c}\IeC {\~a}o\relax }}{26}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \textit {Prompt} com dados necess\IeC {\'a}rios \IeC {\`a} reconstru\IeC {\c c}\IeC {\~a}o\relax }}{26}
 \contentsline {figure}{\numberline {6.8}{\ignorespaces \textit {Prompt} para escolha manual da coordenada Z\relax }}{26}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Panoramas das reconstru\IeC {\c c}\IeC {\~o}es de valida\IeC {\c c}\IeC {\~a}o\relax }}{30}
@@ -50,9 +50,9 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vis\IeC {\~a}o da lateral esquerda do \textit {VW Beetle} de Sutherland reconstru\IeC {\'\i }do}}}{32}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vis\IeC {\~a}o frontal da reconstru\IeC {\c c}\IeC {\~a}o do \textit {VW Beetle} de Sutherland}}}{32}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vis\IeC {\~a}o da lateral direita do \textit {VW Beetle} de Sutherland reconstru\IeC {\'\i }do}}}{32}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Panorama da reconstru\IeC {\c c}\IeC {\~a}o da litografia do Durer\relax }}{32}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Panorama da reconstru\IeC {\c c}\IeC {\~a}o da litografia do D\IeC {\"u}rer\relax }}{32}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces A reconstru\IeC {\c c}\IeC {\~a}o da cena da litografia de Durer (Faces inseridas manualmente)\relax }}{33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob ponto de vista reverso em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} cena da litografia de Durer}}}{33}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o em vista lateral da cena da litografia de Durer}}}{33}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob mesmo ponto de vista da cena da litografia de Durer}}}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob ponto de vista reverso em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} cena da litografia de D\IeC {\"u}rer}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o em vista lateral da cena da litografia de D\IeC {\"u}rer}}}{33}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstru\IeC {\c c}\IeC {\~a}o sob mesmo ponto de vista da cena da litografia de D\IeC {\"u}rer}}}{33}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Referenciamento na imagem do Bule de Newell\relax }}{33}

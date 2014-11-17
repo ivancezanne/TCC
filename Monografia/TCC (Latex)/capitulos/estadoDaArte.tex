@@ -1,19 +1,19 @@
 \chapter{Estado da Arte}
 
-Com o uso de \textit{hardwares} elaborados (câmeras sincronizadas ou câmeras de percepção volumétrica), definição estrita de objeto de reconstrução e distintas vertentes geométricas, a reconstrução 3D já é uma prática difundida, sendo possível encontrar um grande número de artigos acadêmicos sobre o assunto, além de trabalhos de empresas de entretenimento famosas que implementam reconstrução 3D, cada um de uma forma particular.
+	Com o uso de \textit{hardwares} elaborados (câmeras sincronizadas ou câmeras de percepção volumétrica), definição estrita de objeto de reconstrução e distintas vertentes geométricas, a reconstrução 3D já é uma prática difundida; sendo possível encontrar um grande número de artigos acadêmicos sobre o assunto, além de trabalhos de empresas de entretenimento famosas que implementam reconstrução 3D, cada um de uma forma particular.
 
-	Neste capítulo é exposto uma breve coleção de exemplos representativos desta difusão da reconstrução a fim de configurar o cenário real onde este trabalho de conclusão de curso se encaixa.
+	Neste capítulo é exposta uma breve coleção de exemplos representativos desta difusão da reconstrução a fim de configurar o cenário onde este trabalho de conclusão de curso se encaixa.
 	
 	\section{Múltiplas Visões e Geometria Epipolar}
 	
-	Uma abordagem muito comum para a implementação de um sistema de reconstrução 3D é o uso de diferentes ponto de vista sobre um mesmo objeto. A aquisição de dados de um objeto sob diferentes pontos de vista pode ser feita através de sistemas com múltiplos dispositivos de captura (câmeras) devidamente sincronizados e calibrados ou com imagens já obtidas desde que seja conhecido um certo número de dados tridimensionais e dados de correspondência. Câmeras utilizadas para obtenção de múltiplas visões de um objeto são conhecidas como câmeras estéreo e tal técnica baseada em múltiplas visões, de estereoscopia.
+	Uma abordagem muito comum para a implementação de um sistema de reconstrução 3D é o uso de diferentes pontos de vista sobre um mesmo objeto. A aquisição de dados de um objeto sob diferentes pontos de vista pode ser feita através de sistemas com múltiplos dispositivos de captura (câmeras) devidamente sincronizados e calibrados ou com imagens já obtidas, desde que seja conhecido um certo número de dados tridimensionais e dados de correspondência. Câmeras utilizadas para obtenção de múltiplas visões de um objeto são conhecidas como câmeras estéreo e tal técnica baseada em múltiplas visões, de estereoscopia.
 	
-	Observando relações de correspondência entre pontos de distintas imagens, o uso da geometria epipolar fornece meios de concluir uma localização tridimensional a partir de dados bidimensionais. De forma sucinta, a geometria epipolar utiliza a técnica de triangulação entre os centros de projeção - que são pontos tridimensionais - de duas câmeras e o ponto de interseção - que também é tridimensional e pode ser chamado de epipolo - entre as retas formadas pelos centros de projeção das câmeras e o ponto da imagem em análise \cite[p.11]{animation}.
+	Observando relações de correspondência entre pontos de distintas imagens, o uso da geometria epipolar fornece meios de concluir uma localização tridimensional a partir de dados bidimensionais. De forma sucinta, a geometria epipolar utiliza a técnica de triangulação entre os centros de projeção - que são pontos tridimensionais - de duas câmeras e o ponto de interseção - que também é tridimensional e pode ser chamado de epipolo - entre as retas formadas pelos centros de projeção das câmeras e o ponto da imagem em análise \cite{animation}.
 	
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[height=5cm]{imagens/geometriaEpipolar.png}
-		\caption{Triangulação utilizada na geomtria epipolar}
+		\caption{Triangulação utilizada na geometria epipolar}
 		\label{fotoGeometriaEpipolar}
 	\end{figure}
 	
@@ -29,13 +29,15 @@ Com o uso de \textit{hardwares} elaborados (câmeras sincronizadas ou câmeras d
 		
 		\cite{stereoRelatedWork} utiliza uma abordagem mais enxuta da reconstruçao 3D através de estereoscopia, sob a premissa de que as dimensões do objeto a ser reconstruído são conhecidas. Tal premissa, mesmo válida para o trabalho citado, reduz drasticamente o escopo da técnica sugerida.
 		
-		Usando um único par de imagens estereoscópicas estáticas e as dimensões do objeto estudado ainda é preciso efetuar alguns processos de normalização a ajuste algébrico para que condições de convergência, como o epipolo, possam ser obtidas. Tais empecilhos, inclusive, são decorrentes de uma análise do objeto em termos de coordenadas absolutas, o que é irrelevante para a análise de um objeto isolado cuja reconstrução não faz parte de um cenário igualmente importante.
+		Usando um único par de imagens estereoscópicas estáticas e as dimensões do objeto estudado, ainda é preciso efetuar alguns processos de normalização a ajuste algébrico para que condições de convergência, como o epipolo, possam ser obtidas. Tais empecilhos, inclusive, são decorrentes de uma análise do objeto em termos de coordenadas absolutas, o que é irrelevante para a análise de um objeto isolado cuja reconstrução não faz parte de um cenário igualmente importante.
 		
 		Assim, a reconstrução 3D de \cite{stereoRelatedWork} ainda não se adapta completamente ao objetivo deste trabalho.
 		
 	\section{Calibração de Câmera e Geometria Projetiva}
 		\label{secaoEstadoDaArteCalibracao}
 	
-		Um conceito conhecido na computação gráfica é o de câmera virtual - um modelo matemático computacional que representa o funcionamento de um dispositivo de captura \cite{fundCompGraf}. A técnica de calibração de câmera consiste em estimar os parâmetros de uma câmera virtual capaz de produzir uma imagem. Uma vez que imagens são produzidas através de projeções, com o uso da geometria projetiva é possível haver dedução, sob certas hipóteses, de dados 3D após a análise de uma única imagem 2D.
+		Um conceito conhecido na computação gráfica é o de câmera virtual - um modelo matemático computacional que representa o funcionamento de um dispositivo de captura \cite{fundCompGraf}. 
+		
+		A técnica de calibração de câmera consiste em estimar os parâmetros de uma câmera virtual capaz de produzir uma imagem. Uma vez que imagens são produzidas através de projeções, com o uso da geometria projetiva é possível haver dedução, sob certas hipóteses, de dados 3D após a análise de uma única imagem 2D.
 		
 		Em \cite{3DFromLineDrawings}, após um processo de obtenção dos parâmetros de uma câmera, é possível transformar polígonos pertencentes ao plano da imagem em polígonos equivalentes pertencentes a planos tridimensionais distintos do plano da imagem. Infortunadamente, esta referência não fora conhecida tão cedo quanto desejado, impedindo que este trabalho pudesse ter maior embasamento e robustez baseado em tal referência. No entanto, trabalhos parecidos sobre calibração de câmera para reconstrução 3D, que, estes sim, serviram como embasamento inicial, estão presentes em \cite{juizVirtual} e \cite{szenbergDoutorado}

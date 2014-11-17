@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  14 NOV 2014 14:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  17 NOV 2014 17:19
 entering extended mode
 **TCC.tex
 
@@ -558,7 +558,7 @@ Package pdftex.def Info: imagens/geometriaEpipolar.png used on input line 15.
 /Produções/TCC/imagens/geometriaEpipolar.png>])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\capitulos/materiaisEMetodos.tex"
-Overfull \hbox (10.04475pt too wide) in paragraph at lines 41--1
+Overfull \hbox (10.04475pt too wide) in paragraph at lines 43--1
 []\OT1/cmr/m/n/12 Em (LEE; FENG; GO-OCH, 2008), apos um pro-cesso de ob-tenc~
 ao dos par^ametros
  []
@@ -567,96 +567,95 @@ ao dos par^ametros
 Cap\'{\i }tulo 3.
 [7
 
-] <imagens/SutherlandsVW-Skinned.jpg, id=73, 602.25pt x 451.6875pt>
+] <imagens/SutherlandsVW-Skinned.jpg, id=74, 602.25pt x 451.6875pt>
 File: imagens/SutherlandsVW-Skinned.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Skinned.jpg>
-Package pdftex.def Info: imagens/SutherlandsVW-Skinned.jpg used on input line 4
-1.
+Package pdftex.def Info: imagens/SutherlandsVW-Skinned.jpg used on input line 3
+9.
 (pdftex.def)             Requested size: 189.68217pt x 142.26378pt.
 
-<imagens/SutherlandsVW-Wireframe.jpg, id=74, 602.25pt x 451.6875pt>
+<imagens/SutherlandsVW-Wireframe.jpg, id=75, 602.25pt x 451.6875pt>
 File: imagens/SutherlandsVW-Wireframe.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Wireframe.jpg>
 Package pdftex.def Info: imagens/SutherlandsVW-Wireframe.jpg used on input line
- 46.
+ 44.
 (pdftex.def)             Requested size: 189.68217pt x 142.26378pt.
 
-<imagens/SutherlandsVW-Skinned-Referenced.jpg, id=75, 973.6375pt x 548.0475pt>
+<imagens/SutherlandsVW-Skinned-Referenced.jpg, id=76, 973.6375pt x 548.0475pt>
 File: imagens/SutherlandsVW-Skinned-Referenced.jpg Graphic file (type jpg)
 
 <use imagens/SutherlandsVW-Skinned-Referenced.jpg>
 Package pdftex.def Info: imagens/SutherlandsVW-Skinned-Referenced.jpg used on i
-nput line 51.
+nput line 49.
 (pdftex.def)             Requested size: 252.73865pt x 142.26378pt.
 
-Underfull \hbox (badness 1635) in paragraph at lines 51--51
+Underfull \hbox (badness 1635) in paragraph at lines 49--49
 []\OT1/cmr/m/n/10 (c) |\OT1/cmr/m/it/10 VW Be-e-tle \OT1/cmr/m/n/10 de Suther-l
 and com re-fer^encias (TOR-
  []
 
-<imagens/Milkjug-Wireframe-1.png, id=76, 451.6875pt x 417.81094pt>
+<imagens/Milkjug-Wireframe-1.png, id=77, 451.6875pt x 417.81094pt>
 File: imagens/Milkjug-Wireframe-1.png Graphic file (type png)
 
 <use imagens/Milkjug-Wireframe-1.png>
-Package pdftex.def Info: imagens/Milkjug-Wireframe-1.png used on input line 63.
+Package pdftex.def Info: imagens/Milkjug-Wireframe-1.png used on input line 61.
 
 (pdftex.def)             Requested size: 153.79915pt x 142.26378pt.
 
-<imagens/Milkjug-Wireframe-2.png, id=77, 415.5525pt x 418.56375pt>
+<imagens/Milkjug-Wireframe-2.png, id=78, 415.5525pt x 418.56375pt>
 File: imagens/Milkjug-Wireframe-2.png Graphic file (type png)
 
 <use imagens/Milkjug-Wireframe-2.png>
-Package pdftex.def Info: imagens/Milkjug-Wireframe-2.png used on input line 68.
+Package pdftex.def Info: imagens/Milkjug-Wireframe-2.png used on input line 66.
 
 (pdftex.def)             Requested size: 141.23524pt x 142.26378pt.
- [8]
-<imagens/durer.jpg, id=82, 1606.0pt x 1232.605pt>
+
+<imagens/durer.jpg, id=79, 1606.0pt x 1232.605pt>
 File: imagens/durer.jpg Graphic file (type jpg)
  <use imagens/durer.jpg>
-Package pdftex.def Info: imagens/durer.jpg used on input line 77.
+Package pdftex.def Info: imagens/durer.jpg used on input line 75.
 (pdftex.def)             Requested size: 259.48932pt x 199.16928pt.
 
-[9 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/P
-roduções/TCC/imagens/SutherlandsVW-Skinned.jpg> <D:/Dropbox/UESC/TCC - Recons
-trução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/Sutherlan
-dsVW-Wireframe.jpg> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Parti
-r de Imagens 2D/Produções/TCC/imagens/SutherlandsVW-Skinned-Referenced.jpg> <
-D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produ
-ções/TCC/imagens/Milkjug-Wireframe-1.png> <D:/Dropbox/UESC/TCC - Reconstruç�
-�o de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/Milkjug-Wirefra
-me-2.png>] <imagens/cenaTeste1.png, id=90, 542.025pt x 542.025pt>
+[8] [9 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 
+2D/Produções/TCC/imagens/SutherlandsVW-Skinned.jpg> <D:/Dropbox/UESC/TCC - Re
+construção de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/Suthe
+rlandsVW-Wireframe.jpg> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a P
+artir de Imagens 2D/Produções/TCC/imagens/SutherlandsVW-Skinned-Referenced.jp
+g> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/P
+roduções/TCC/imagens/Milkjug-Wireframe-1.png> <D:/Dropbox/UESC/TCC - Reconstr
+ução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/Milkjug-Wir
+eframe-2.png>] <imagens/cenaTeste1.png, id=90, 542.025pt x 542.025pt>
 File: imagens/cenaTeste1.png Graphic file (type png)
 
 <use imagens/cenaTeste1.png>
-Package pdftex.def Info: imagens/cenaTeste1.png used on input line 98.
+Package pdftex.def Info: imagens/cenaTeste1.png used on input line 96.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
 
 <imagens/cenaTeste2.png, id=91, 542.025pt x 542.025pt>
 File: imagens/cenaTeste2.png Graphic file (type png)
 
 <use imagens/cenaTeste2.png>
-Package pdftex.def Info: imagens/cenaTeste2.png used on input line 103.
+Package pdftex.def Info: imagens/cenaTeste2.png used on input line 101.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
 
 <imagens/cenaTeste3.png, id=92, 542.025pt x 542.025pt>
 File: imagens/cenaTeste3.png Graphic file (type png)
 
 <use imagens/cenaTeste3.png>
-Package pdftex.def Info: imagens/cenaTeste3.png used on input line 108.
+Package pdftex.def Info: imagens/cenaTeste3.png used on input line 106.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
  [10 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
-/Produções/TCC/imagens/durer.jpg>])
+/Produções/TCC/imagens/durer.jpg> <D:/Dropbox/UESC/TCC - Reconstrução de Ob
+jetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/cenaTeste1.png> <D:/Dro
+pbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções
+/TCC/imagens/cenaTeste2.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3
+D a Partir de Imagens 2D/Produções/TCC/imagens/cenaTeste3.png>])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\capitulos/projecoesECalibracao.tex" [11 <D:/Dropbox/UESC/TCC - Rec
-onstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/cenaTe
-ste1.png> <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Image
-ns 2D/Produções/TCC/imagens/cenaTeste2.png> <D:/Dropbox/UESC/TCC - Reconstru�
-�ão de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/cenaTeste3.pn
-g>]
+duções\TCC\capitulos/projecoesECalibracao.tex" [11]
 Cap\'{\i }tulo 4.
-<imagens/projecaoParalela.jpg, id=106, 1018.80624pt x 1021.8175pt>
+<imagens/projecaoParalela.jpg, id=107, 1018.80624pt x 1021.8175pt>
 File: imagens/projecaoParalela.jpg Graphic file (type jpg)
 
 <use imagens/projecaoParalela.jpg>
@@ -665,7 +664,7 @@ Package pdftex.def Info: imagens/projecaoParalela.jpg used on input line 20.
  [12
 
 ]
-<imagens/projecaoConica.jpg, id=110, 1412.27625pt x 737.75626pt>
+<imagens/projecaoConica.jpg, id=111, 1412.27625pt x 737.75626pt>
 File: imagens/projecaoConica.jpg Graphic file (type jpg)
 
 <use imagens/projecaoConica.jpg>
@@ -680,31 +679,31 @@ Overfull \hbox (17.67238pt too wide) in paragraph at lines 77--78
 o a par-tir dos par^ametros
  []
 
-[15] [16])
+[15])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
-duções\TCC\capitulos/reconstrucao.tex" [17]
+duções\TCC\capitulos/reconstrucao.tex" [16] [17]
 Cap\'{\i }tulo 5.
-[18
 
-]
-<imagens/cenaExemploUnicoPontoPorPlano.png, id=131, 633.86812pt x 402.00188pt>
+<imagens/cenaExemploUnicoPontoPorPlano.png, id=128, 633.86812pt x 402.00188pt>
 File: imagens/cenaExemploUnicoPontoPorPlano.png Graphic file (type png)
 
 <use imagens/cenaExemploUnicoPontoPorPlano.png>
 Package pdftex.def Info: imagens/cenaExemploUnicoPontoPorPlano.png used on inpu
-t line 27.
-(pdftex.def)             Requested size: 246.74332pt x 156.49014pt.
+t line 18.
+(pdftex.def)             Requested size: 269.18243pt x 170.71652pt.
+ [18
 
+]
 <imagens/pontosMesmoPlano.png, id=132, 368.1253pt x 274.02374pt>
 File: imagens/pontosMesmoPlano.png Graphic file (type png)
 
 <use imagens/pontosMesmoPlano.png>
-Package pdftex.def Info: imagens/pontosMesmoPlano.png used on input line 40.
+Package pdftex.def Info: imagens/pontosMesmoPlano.png used on input line 31.
 (pdftex.def)             Requested size: 191.12292pt x 142.26378pt.
  [19 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
-/Produções/TCC/imagens/cenaExemploUnicoPontoPorPlano.png>] [20 <D:/Dropbox/UE
-SC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/im
-agens/pontosMesmoPlano.png>])
+/Produções/TCC/imagens/cenaExemploUnicoPontoPorPlano.png> <D:/Dropbox/UESC/TC
+C - Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens
+/pontosMesmoPlano.png>] [20])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\capitulos/osSoftwares.tex" [21]
 Cap\'{\i }tulo 6.
@@ -1007,7 +1006,7 @@ roduções/TCC/imagens/printBuleDispensada.png>] [34])
 duções\TCC\TCC.bbl" [35] [36
 
 ]
-Overfull \hbox (13.79701pt too wide) in paragraph at lines 145--150
+Overfull \hbox (13.79701pt too wide) in paragraph at lines 138--143
 \OT1/cmr/m/n/12 jalopnik-[]post-[]the-[]rst-[]real-[]object-[]ever-[]3d-[]scan
 ned-[]and-[]rendered-[]was-[]a-[]vw-[]beetle-[]2706861[]$ 
  []
@@ -1016,13 +1015,13 @@ ned-[]and-[]rendered-[]was-[]a-[]vw-[]beetle-[]2706861[]$
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\TCC.aux") ) 
 Here is how much of TeX's memory you used:
- 4714 strings out of 493921
- 74944 string characters out of 3147259
- 132190 words of memory out of 3000000
- 7865 multiletter control sequences out of 15000+200000
+ 4711 strings out of 493921
+ 74784 string characters out of 3147259
+ 132147 words of memory out of 3000000
+ 7862 multiletter control sequences out of 15000+200000
  11629 words of font info for 41 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 44i,10n,48p,1245b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,48p,1231b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
@@ -1038,7 +1037,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TCC.pdf (49 pages, 6658625 bytes).
+Output written on TCC.pdf (49 pages, 6658834 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

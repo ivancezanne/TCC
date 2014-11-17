@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {3}Materiais e M\IeC {\'e}todos}{7}
 \contentsline {section}{\numberline {3.1}Recursos Computacionais}{7}
 \contentsline {section}{\numberline {3.2}Conjunto de Dados}{8}
-\contentsline {section}{\numberline {3.3}Aferi\IeC {\c c}\IeC {\~a}o da corretude}{10}
+\contentsline {section}{\numberline {3.3}Aferi\IeC {\c c}\IeC {\~a}o da corretude}{9}
 \contentsline {chapter}{\numberline {4}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{12}
 \contentsline {section}{\numberline {4.1}Proje\IeC {\c c}\IeC {\~o}es}{12}
 \contentsline {subsection}{\numberline {4.1.1}Proje\IeC {\c c}\IeC {\~a}o Paralela}{12}
@@ -23,7 +23,7 @@
 \contentsline {chapter}{\numberline {5}A T\IeC {\'e}cnica de Reconstru\IeC {\c c}\IeC {\~a}o}{18}
 \contentsline {chapter}{\numberline {6}Os Softwares}{22}
 \contentsline {section}{\numberline {6.1}Aplicativo de detec\IeC {\c c}\IeC {\~a}o de retas}{22}
-\contentsline {section}{\numberline {6.2}Aplicativo de visualiza\IeC {\c c}\IeC {\~a}o 3D}{24}
+\contentsline {section}{\numberline {6.2}Aplicativo de Proje\IeC {\c c}\IeC {\~a}o 3D}{24}
 \contentsline {section}{\numberline {6.3}Aplicativo de Reconstru\IeC {\c c}\IeC {\~a}o}{25}
 \contentsline {chapter}{\numberline {7}Resultados, Discuss\IeC {\~o}es e Trabalhos Futuros}{28}
 \contentsline {section}{\numberline {7.1}Testes validadores}{28}

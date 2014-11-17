@@ -1,7 +1,7 @@
 \chapter{Os Softwares}
 	\label{capituloSoftwares}
 
-	Ao decorrer deste trabalho, fora o software que implementa a técnica de reconstrução descrita nesta monografia, foram sendo necessário que técnicas adjuntas à da estudada aqui também fossem implementadas em softwares a fim de facilitar comprovações de resultados e automatizações de tarefas auxiliares ao projeto; além de agregar determinada riqueza de esforço e de ferramentas a este trabalho de conclusão de curso.
+	Ao decorrer deste trabalho, fora o software que implementa a técnica de reconstrução descrita nesta monografia, foi sendo necessário que técnicas adjuntas à estudada aqui também fossem implementadas em softwares a fim de facilitar comprovações de resultados e automatizações de tarefas auxiliares ao projeto; além de agregar determinada riqueza de esforço e de ferramentas a este trabalho de conclusão de curso.
 	
 	A seguir são apresentados os exemplos mais representativos dos softwares desenvolvidos ao longo do projeto.
 	
@@ -13,9 +13,9 @@
 	
 	O Métodos dos Mínimos Quadrados é uma técnica de regressão linear que busca ajustar corretamente coeficientes de uma curva algébrica de forma que estes minimizem o somatório do quadrado da diferença entre os valores dos dados reais e os valores estimados, minimizando o erro de aproximação.
 	
-	Com uma interface apropriada, pôde-se carregar uma imagem e, através da demarcação manual de uma região de interesse na mesma (demarcada por um retângulo vermelho), pontos da linha do sistema de referência foram detectados pela sua cor preta e submetidos ao método dos mínimos quadrados (figura \ref{figMinQuadInterface}).
+	Com uma interface apropriada, pôde-se carregar uma imagem e, através da demarcação manual de uma região de interesse na mesma (demarcada por um retângulo vermelho), pontos da possível linha foram detectados pela sua cor preta e submetidos ao método dos mínimos quadrados (figura \ref{figMinQuadInterface}).
 	
-	Após a aproximação são exibidos, na parte superior da janela, os coeficientes encontrados e é plotada, sobre a imagem, reta encontrada.
+	Após a aproximação são exibidos, na parte superior da janela, os coeficientes encontrados e é plotada, sobre a imagem, a reta encontrada.
 	
 	\begin{figure}[!htb]
 		\centering
@@ -24,7 +24,7 @@
 		\label{figMinQuadInterface}
 	\end{figure}
 
-	Posteriormente os coeficientes encontrados foram submetidos ao programa Microsoft Mathematics\textregistered  comprovando que os valores encontrados são coerentes (figura \ref{mathematics}). Note que, como o sentido de orientação dos pontos da imagem (de cima para baixo) é inverso ao do plano cartesiano (de baixo para cima) o aspecto da reta em relação ao aspecto da linha é invertido.
+	Posteriormente, os coeficientes encontrados foram submetidos ao programa Microsoft Mathematics\textregistered  comprovando que os valores encontrados são coerentes (figura \ref{mathematics}). Note que, como o sentido de orientação dos pontos da imagem (de cima para baixo) é inverso ao do plano cartesiano (de baixo para cima) o aspecto da reta em relação ao aspecto da linha é invertido.
 	
 	\begin{figure}[!htb]
 		\centering
@@ -37,10 +37,10 @@
 	
 	Este aplicativo está disponível em \url{https://github.com/ivancezanne/TCC/tree/master/App_MinimosQuadrados}.
 	
-	\section{Aplicativo de visualização 3D}
+	\section{Aplicativo de Projeção 3D}
 		\label{app3D}
 		
-		Tendo em vista que o resultado deste trabalho é gerar malhas 3D, um aplicativo (figura \ref{imagemApp3D}), baseado na descrição presente em \cite{compGraphsPrincPrat3ed} e capaz de interpretar aquivos PLY \cite{ply}, foi desenvolvido. Mesmo apresentando uma limitação quanto a definições de usuário em relação a cores e normais de faces a utilidade deste aplicativo no contexto deste trabalho foi notável.
+		Tendo em vista que o resultado deste trabalho é gerar malhas 3D, um aplicativo (figura \ref{imagemApp3D}), baseado na descrição presente em \cite{compGraphsPrincPrat3ed} e capaz de interpretar aquivos PLY \cite{ply}, foi desenvolvido. Mesmo apresentando uma limitação quanto a definições de usuário em relação a cores e normais de faces, a utilidade deste aplicativo no contexto deste trabalho foi notável.
 		
 		\begin{figure}[!htb]
 			\centering
@@ -49,7 +49,7 @@
 			\label{imagemApp3D}
 		\end{figure}
 		
-		Além da projeção da malha 3D descrita em um arquivo PLY de entrada, este aplicativo possibilita manipulações geométricas na malha (translação e rotação, apenas) e algoritmos prontos de normalização (redução proporcional das dimensões para o máximo de 1 unidade de medida) e centralização (translação do baricentro da malha à origem do espaço 3D).
+		Além da projeção da malha 3D descrita em um arquivo PLY de entrada, este aplicativo possibilita manipulações geométricas na malha (translação e rotação, apenas) e algoritmos prontos de normalização (alteração proporcional das dimensões para o máximo de 1 unidade de medida) e centralização (translação do baricentro da malha à origem do espaço 3D).
 		
 		Como auxílios visuais o aplicativo também permite escolher quais elementos da malha deverão ser projetados à visualização (figura \ref{imagemApp3DRenderizar}) e alterar as cores dos elementos que compõem a malha (figura \ref{imagemApp3DCores}).
 		
@@ -84,7 +84,7 @@
 			\label{printAppReconstrucao}
 		\end{figure}
 		
-		Inicialmente, o software necessita que uma imagem seja aberta em sua interface para que as demais funcionalidades sejam disponibilizadas. Com uma imagem carregada (que já é aberta com um conjunto de referências arbitrário), a demarcação de pontos de referência e de interesses (capítulo \ref{capituloReconstrucao}) pode ser feita através de \textit{clicks} na região desejada da imagem (figura \ref{printAppReconstrucaoDemarcacao}).
+		Inicialmente, o software necessita que uma imagem seja aberta em sua interface para que as demais funcionalidades sejam disponibilizadas. Com uma imagem carregada (que já é aberta com um conjunto de referências arbitrário), a demarcação de pontos de referência e de interesse (capítulo \ref{capituloReconstrucao}) pode ser feita através de \textit{clicks} na região desejada da imagem (figura \ref{printAppReconstrucaoDemarcacao}).
 		
 		\begin{figure}[!htb]
 			\centering
@@ -118,7 +118,7 @@
 		\begin{figure}[!htb]
 			\centering
 			\includegraphics[height=5cm]{imagens/printAppReconstrucaoReconstrucao.png}
-			\caption{\textit{Prompt} com dados necessário à reconstrução}
+			\caption{\textit{Prompt} com dados necessários à reconstrução}
 			\label{printAppReconstrucaoReconstrucao}
 		\end{figure}
 		
@@ -131,7 +131,7 @@
 			\label{printAppReconstrucaoEscolhaManual}
 		\end{figure}
 		
-		Em posse disto a técnica de reconstrução proposta neste trabalho pode ser executada por qualquer usuário interessado através de um interface adequada. Todavia, ferramentas adicionais como visualização de aproximação após calibração de câmera; salvamento e carregamento de pontos de referência e de interesse via arquivos; e captura de tela de trabalho foram implementadas tornando o uso do software mais completo e eficiente.
+		Em posse disto a técnica de reconstrução proposta neste trabalho pode ser executada por qualquer usuário interessado através de um interface adequada. Todavia, ferramentas adicionais como visualização de aproximação após calibração de câmera; salvamento e carregamento de pontos de referência e de interesse através de arquivos; e captura de tela de trabalho foram implementadas tornando o uso do software mais completo e eficiente.
 		
 		Este aplicativo de reconstrução está disponível em \url{https://github.com/ivancezanne/TCC/tree/master/App_Reconstrucao}.
 		
