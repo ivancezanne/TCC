@@ -76,7 +76,6 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.Filter = "Imagens (*.png, *.jpg)|*.png;*.jpg";
             // 
             // menuStrip1
@@ -284,7 +283,7 @@
             // salvarTelaToolStripMenuItem
             // 
             this.salvarTelaToolStripMenuItem.Name = "salvarTelaToolStripMenuItem";
-            this.salvarTelaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salvarTelaToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.salvarTelaToolStripMenuItem.Text = "Salvar tela";
             this.salvarTelaToolStripMenuItem.Click += new System.EventHandler(this.salvarTelaToolStripMenuItem_Click);
             // 

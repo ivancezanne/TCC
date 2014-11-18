@@ -55,6 +55,7 @@ namespace MinimosQuadrados
         private void abrirImagemToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
+            openFileDialog1.Title = "Abrir imagem";
 
             openFileDialog1.ShowDialog();
 
@@ -63,6 +64,8 @@ namespace MinimosQuadrados
                 String arquivo = openFileDialog1.FileName;
 
                 pictureBox1.Image = new Bitmap(arquivo);
+
+                this.Text = "Mínimos Quadrados (" + arquivo + ")";
             }
         }
 

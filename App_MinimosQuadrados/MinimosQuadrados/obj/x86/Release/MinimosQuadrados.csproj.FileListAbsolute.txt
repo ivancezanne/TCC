@@ -1,0 +1,8 @@
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\bin\Release\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\bin\Release\MinimosQuadrados.pdb
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.AboutBox1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.Form1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.Properties.Resources.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.csproj.GenerateResource.Cache
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.exe
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\MinimosQuadrados\MinimosQuadrados\obj\x86\Release\MinimosQuadrados.pdb

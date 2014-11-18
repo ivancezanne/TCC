@@ -162,9 +162,11 @@ namespace ProjecaoCap3
             int nFaces = 0;
             int nArestas = 0;
 
+            openFileDialog1.FileName = "";
+            openFileDialog1.Title = "Abrir malha PLY";
             openFileDialog1.ShowDialog();
 
-            if(openFileDialog1.FileName != null){
+            if(openFileDialog1.FileName != ""){
                 filename = openFileDialog1.FileName;
 
                 System.IO.StreamReader file = new System.IO.StreamReader(filename);
@@ -252,7 +254,7 @@ namespace ProjecaoCap3
 
                 toolStripStatusLabel1.Text = "vertices: " + nVertices + ", faces: " + nFaces + ", arestas: " + nArestas;
 
-                MessageBox.Show("PLY carregado com sucesso!");
+                MessageBox.Show(this, "PLY carregado com sucesso!", "Projeção - Aviso");
 
                 this.atualizaTela();
             }

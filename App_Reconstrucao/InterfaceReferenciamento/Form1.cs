@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace InterfaceReferenciamento
 {
@@ -31,11 +32,12 @@ namespace InterfaceReferenciamento
         private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            openFileDialog1.FileName = " ";
+            this.openFileDialog1.FileName = "";
+            this.openFileDialog1.Title = "Abrir imagem";
 
-            openFileDialog1.ShowDialog();
+            this.openFileDialog1.ShowDialog(this);
 
-            if(!openFileDialog1.FileName.Equals(" ")){
+            if(this.openFileDialog1.FileName != ""){
 
                 nomeArquivo = openFileDialog1.FileName;
 
@@ -461,11 +463,12 @@ namespace InterfaceReferenciamento
         private void carregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if(this.pictureBox1.Image != null){
-                this.openFileDialog2.FileName = " ";
+                this.openFileDialog2.FileName = "";
+                this.openFileDialog2.Title = "Abrir arquivo de referências";
 
                 this.openFileDialog2.ShowDialog(this);
 
-                if (this.openFileDialog2.FileName != " "){
+                if (this.openFileDialog2.FileName != ""){
                     System.IO.StreamReader arquivo = new System.IO.StreamReader(this.openFileDialog2.FileName);
 
                     String linha;
@@ -500,10 +503,11 @@ namespace InterfaceReferenciamento
             if(this.pictureBox1.Image != null){
                 System.IO.StreamWriter arquivoSaida;
 
-                this.saveFileDialog1.FileName = " ";
+                this.saveFileDialog1.FileName = "";
+                this.saveFileDialog1.Title = "Salvar arquivo de referências";
                 this.saveFileDialog1.ShowDialog(this);
 
-                if (this.saveFileDialog1.FileName != " ")
+                if (this.saveFileDialog1.FileName != "")
                 {
                     arquivoSaida = new System.IO.StreamWriter(this.saveFileDialog1.FileName);
 
@@ -560,11 +564,12 @@ namespace InterfaceReferenciamento
         private void carregarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             if(this.pictureBox1.Image != null){
-                this.openFileDialog2.FileName = " ";
+                this.openFileDialog2.FileName = "";
+                this.openFileDialog2.Title = "Abrir arquivo de pontos de interesse";
 
                 this.openFileDialog2.ShowDialog(this);
 
-                if (this.openFileDialog2.FileName != " ")
+                if (this.openFileDialog2.FileName != "")
                 {
                     System.IO.StreamReader arquivo = new System.IO.StreamReader(this.openFileDialog2.FileName);
 
@@ -600,10 +605,11 @@ namespace InterfaceReferenciamento
             if(this.pictureBox1.Image != null){
                 System.IO.StreamWriter arquivoSaida;
 
-                this.saveFileDialog1.FileName = " ";
+                this.saveFileDialog1.FileName = "";
+                this.saveFileDialog1.Title = "Salvar arquivo de pontos de interesse";
                 this.saveFileDialog1.ShowDialog(this);
 
-                if (this.saveFileDialog1.FileName != " ")
+                if (this.saveFileDialog1.FileName != "")
                 {
                     arquivoSaida = new System.IO.StreamWriter(this.saveFileDialog1.FileName);
 
@@ -655,6 +661,8 @@ namespace InterfaceReferenciamento
 
             PromptReconstrucao prompt1;
 
+            Stopwatch temporizador = new Stopwatch();
+
 
             //verifica se a câmera está calibrada
             if (this.camera.estaCalibrada()) {
@@ -683,6 +691,8 @@ namespace InterfaceReferenciamento
                         //verifica se foi selecionado um arquivo de salvamento
                         if (this.saveFileDialog2.FileName != " ") {
 
+                            temporizador.Start();
+
                             arquivoSaida = new System.IO.StreamWriter(this.saveFileDialog2.FileName);
 
                             //passa de plano em plano (categoricamente)
@@ -709,7 +719,7 @@ namespace InterfaceReferenciamento
                                 //verifica se há pontos naquele plano categórico
                                 if (pontosPlano.Count > 0) {
                                     //passa ponto de interesse a ponto de interesse (para possíveis valores z)
-                                    for (int i = 0; i < pontosPlano.Count; i++) {
+                                    for (int i = 0; i < pontosPlano.Count && abortar == false; i++) {
                                         //inicializa valores Z do pontos corrente
                                         valoresZponto.Clear();
                                         
@@ -760,25 +770,26 @@ namespace InterfaceReferenciamento
 
                                         //verifica se houve problemas com a interseção
                                         if(valoresZ.Count == 0) {
+                                            abortar = true;
+
                                             MessageBox.Show(this, 
                                                             "Não foi possível determinar a coordenada Z do plano " + planoAtual + ". Por favor, verifique-se que todos os pontos de interesses estão na área de busca.", 
                                                             "TCC - Reconstrução abortada!");
-
-                                            abortar = true;
                                         }
                                     }
 
                                     this.Cursor = Cursors.WaitCursor;
 
                                     //aplica o último critério de convergência
-                                    double mediaZ = 0;
-                                    int maisPerto = 0;
-                                    double valorMaisPerto = valoresZ[0];
-                                    double distMaisPerto = 100;
-                                        switch (criterio) {
-                                            //adota o valor z como o mais próximo do valor z anterior
-                                            case 0:
-                                                for (int i = 0; i < valoresZ.Count; i++) {
+                                    if(abortar == false){
+                                        double mediaZ = 0;
+                                        int maisPerto = 0;
+                                        double valorMaisPerto = valoresZ[0];
+                                        double distMaisPerto = 100;
+                                            switch (criterio) {
+                                                //adota o valor z como o mais próximo do valor z anterior
+                                                case 0:
+                                                                                for (int i = 0; i < valoresZ.Count; i++) {
                                                     if (valoresZ[i] < menorValorZ && valoresZ[i] > ultimoValorZ) {
                                                         menorValorZ = valoresZ[i];
                                                     }
@@ -786,11 +797,11 @@ namespace InterfaceReferenciamento
                                                 valoresZ.RemoveAll(item => item != menorValorZ);
                                                 
                                                 valorZ = valoresZ[0];
-                                                break;
+                                                    break;
 
-                                            //adota o valor z como o mais próximo da média dos valores z restantes
-                                            case 1:
-                                                mediaZ = 0;
+                                                //adota o valor z como o mais próximo da média dos valores z restantes
+                                                case 1:
+                                                                                                            mediaZ = 0;
                                                 maisPerto = 0;
 
                                                 for (int i = 0; i < valoresZ.Count; i++) {
@@ -808,11 +819,11 @@ namespace InterfaceReferenciamento
                                                 }
                                                 
                                                 valorZ = valoresZ[maisPerto];
-                                                break;
+                                                    break;
 
-                                            //escolha manual
-                                            case 2:
-                                                int indice;
+                                                //escolha manual
+                                                case 2:
+                                                                                                                                                                    int indice;
 
                                                 //busca o menor valor mais proximo do anterior
                                                 for (int i = 0; i < valoresZ.Count; i++) {
@@ -849,9 +860,9 @@ namespace InterfaceReferenciamento
                                                 }while(indice == -1);
 
                                                 valorZ = valoresZ[indice];
-                                                break;
-                                        }
-
+                                                    break;
+                                            }
+                                    }
 
                                     //passa ponto de interesse a ponto de interesse
                                     //( busca correspondentes 3D pra cada ponto de interesse no plano
@@ -907,7 +918,7 @@ namespace InterfaceReferenciamento
                                 }
                             }
 
-                            //verifica se a recosntrução nao fora abortada
+                            //verifica se a reconstrução nao fora abortada
                             if(abortar == false){
                                 //escreve o arquivo
                                 arquivoSaida.WriteLine("ply");
@@ -928,7 +939,12 @@ namespace InterfaceReferenciamento
                             this.Cursor = Cursors.Default;
 
                             if(abortar == false){
-                                MessageBox.Show(this, "Reconstrução terminada!", "TCC - Aviso");
+                                temporizador.Stop();
+
+                                int minutos = Convert.ToInt32(temporizador.ElapsedMilliseconds / 60000);
+                                int segundos = Convert.ToInt32((temporizador.ElapsedMilliseconds % 60000) / 1000);
+
+                                MessageBox.Show(this, "Reconstrução terminada em " + minutos + " minutos e " + segundos + " segundos!", "TCC - Aviso");
                             }
                         }
                     }
@@ -975,10 +991,11 @@ namespace InterfaceReferenciamento
         {
             if (this.pictureBox1.Image != null) {
 
-                this.saveFileDialog3.FileName = " ";
+                this.saveFileDialog3.FileName = "";
+                this.saveFileDialog3.Title = "Salvar imagem da captura de tela de trabalho";
                 this.saveFileDialog3.ShowDialog(this);
 
-                if (this.saveFileDialog3.FileName != " ") {
+                if (this.saveFileDialog3.FileName != "") {
 
                     Bitmap imagem = new Bitmap(pictureBox1.Image);
 
