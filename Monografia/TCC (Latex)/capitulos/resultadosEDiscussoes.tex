@@ -166,11 +166,13 @@
 				\label{resultadosFuscaTriplo}
 			\end{figure}
 			
-			Pela figura \ref{resultadosFuscaTriplo} nota-se que há certas deformações, uma vez que os segmentos de faces deveriam ser retilíneos quando vistos frontalmente. Todavia, nota-se o paralelismo entre os segmentos, o que é correto, além de esperado comportamento curvilíneo em relação ao eixo Z.
+			Pela figura \ref{resultadosFuscaTriplo} nota-se que há certas deformações, uma vez que os segmentos de faces deveriam ser retilíneos quando vistos frontalmente e há um deslocamento no sentido do eixo Y. Todavia, nota-se o distanciamento central entre os segmentos de faces, o que é correto, além de esperado comportamento curvilíneo em relação ao eixo Z.
 			
-			De tal forma, conclui-se que a deformação é causada por um erro que ainda persiste na determinação das coordenadas Z. Tal erro se dá pois, além dos critérios finais de convergência serem arbitrários, eles, no máximo, seguem uma tendência de crescimento linear; ao passo que a curvatura (crescimento dos valores da coordenada Z para o capô do carro) segue um tendência próxima à logarítmica.
+			De tal forma, conclui-se que a deformação é causada por uma leve imprecisão na demarcação dos pontos de um mesmo plano e um erro que ainda persiste na determinação das coordenadas Z. 
 			
-			Para a litografia de Dürer, a melhor configuração foi com tolerância projetiva igual a 3, incremento de 0.002 e escolha da coordenada Z mais próxima à média dos valore possíveis. Assim, com os dados para reconstrução expostos na figura \ref{printTesteDurer}, obtiveram-se os resultados da figura \ref{resultadosDurerTriplo}
+			O deslocamento no eixo Y é causado por haver demarcação de pontos de um mesmo plano em alturas distintas na imagem; no ponto de vista da imagem, pontos de um mesmo plano no espaço têm sua coordenada Y influenciada majoritariamente pela posição vertical do ponto de interesse na imagem. Já o erro de não paralelismo, por sua vez, ocorre devido a arbitrariedade dos critérios finais de convergência, que seguem uma tendência de crescimento para a coordenada Z diferente da tendência de crescimento real, fazendo com que pontos de um plano, por estarem em uma altura incorreta, se desloquem nos sentidos dos eixos X e Y.
+			
+			Para a litografia de Dürer, a melhor configuração foi com tolerância projetiva igual a 3, incremento de 0.002 e escolha da coordenada Z mais próxima à média dos valores possíveis. Assim, com os dados para reconstrução expostos na figura \ref{printTesteDurer}, obtiveram-se os resultados da figura \ref{resultadosDurerTriplo}
 			
 			\begin{figure}[!htb]
 				\centering
@@ -195,13 +197,15 @@
 					\includegraphics[height=4cm]{imagens/printResultadoDurerFrente.png}
 					\label{resultadosDurer3}
 				}
-				\caption{A reconstrução da cena da litografia de Durer (Faces inseridas manualmente)}
+				\caption{A reconstrução da cena da litografia de Dürer (Faces inseridas manualmente)}
 				\label{resultadosDurerTriplo}
 			\end{figure}
 			
-			No caso da litografia do Durer, o ponto de vista da imagem corrobora para uma melhor convergência de valores para coordenada Z. Todavia, a demarcação das referências e pontos de interesse é muito difícil dada a pequena região e ausência de dados claros sobre dimensões. Assim, o resultado da reconstrução sofre distorções causadas por má catalogação de dados iniciais.
+			No caso da litografia do Dürer, o ponto de vista da imagem corrobora para uma melhor convergência de valores para coordenada Z. Todavia, a demarcação das referências e pontos de interesse é muito difícil dada a pequena região e ausência de dados claros sobre dimensões. Assim, o resultado da reconstrução sofre distorções causadas por má catalogação de dados iniciais.
 			
 			A imagem do Bule de Newell foi dispensada pois, dada a necessidade de demarcação de pontos de referência, esta não possibilitava um bom referenciamento (vide figura \ref{imagemBuleDispensada}) devido à ausência de pontos interessantes nessa região e o fato de sua projeção ser paralela, o que causaria a má calibração de câmera (que atende ao modelo em perspectiva).
+			
+			%%INSERIR AQUI A SOLUÇÃO PARA O PROBLEMA DO BULE
 			
 			\begin{figure}[!htb]
 				\centering

@@ -1,4 +1,4 @@
-\chapter{Os Softwares}
+\chapter{Softwares Desenvolvidos}
 	\label{capituloSoftwares}
 
 	Ao decorrer deste trabalho, fora o software que implementa a técnica de reconstrução descrita nesta monografia, foi sendo necessário que técnicas adjuntas à estudada aqui também fossem implementadas em softwares a fim de facilitar comprovações de resultados e automatizações de tarefas auxiliares ao projeto; além de agregar determinada riqueza de esforço e de ferramentas a este trabalho de conclusão de curso.
@@ -68,7 +68,7 @@
 			\label{imagemApp3DAuxiliosVisuais}
 		\end{figure}
 		
-		Por muitas vezes as funcionalidades implementadas neste aplicativo o fizeram preferível, na visualização de resultados deste trabalho, em relação ao \textit{software} MeshLab.
+		Em testes com nuvens de pontos pós-tratadas (após a inserção de faces), notou-se uma limitação do componente gráfico da linguagem C\# usado na renderização da projeção - o \textit{picturebox}. Tal limitação impede que faces parcialmente fora da área de visualização sejam renderizadas corretamente, causando uma distorção nos polígonos planares correspondentes às faces parcialmente visíveis. Todavia, uma vez que vértices não apresentavam tal problema, as funcionalidades implementadas neste aplicativo o fizeram preferível, na visualização de resultados brutos deste trabalho, em relação ao \textit{software} MeshLab.
 		
 		Este aplicativo pode ser encontrado em \url{https://github.com/ivancezanne/TCC/tree/master/App_Projecao}.
 		
