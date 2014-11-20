@@ -205,8 +205,6 @@
 			
 			A imagem do Bule de Newell foi dispensada pois, dada a necessidade de demarcação de pontos de referência, esta não possibilitava um bom referenciamento (vide figura \ref{imagemBuleDispensada}) devido à ausência de pontos interessantes nessa região e o fato de sua projeção ser paralela, o que causaria a má calibração de câmera (que atende ao modelo em perspectiva).
 			
-			%%INSERIR AQUI A SOLUÇÃO PARA O PROBLEMA DO BULE
-			
 			\begin{figure}[!htb]
 				\centering
 				\includegraphics[height=8cm]{imagens/printBuleDispensada.png}
@@ -219,21 +217,31 @@
 		\section{Discussões}
 			\label{secaoDiscussoes}
 			
-			Nota-se que há uma série de limitações à técnica de reconstrução que, ao fim, causa certa imprecisão ou restrição nos resultados objetivados. A delimitação de uma área de busca fixa, por exemplo, impede que um conjunto maior de reconstruções seja executado; a metodologia de demarcação - por \textit{clicks} - é costumeiramente imprecisa; e a estratégia de eliminação da multiplicidade projetiva não fora tão eficaz quanto o necessário.
+			O resultado gerado pelo \textit{software} de reconstrução - disponibilizado em arquivos de extensão PLY - pode, portanto, ser lido pelos principais programas de modelagem 3D; além disso, os \textit{softwares} anexos ao de reconstrução desempenham um bom auxílio a este último, o que faz deste trabalho um pacote de ferramentas computacionais direcionadas à reconstrução 3D.
 			
-			De qualquer forma, a exemplo da litografia do Dürer e da imagem do \textit{VW Beetle} de Sutherland, viu-se que as imagens não propiciaram uma boa catalogação de dados, uma vez que medidas eram inexistentes ou não correspondiam às medidas que o software requisitava; e, a exemplo da imagem do Bule de Newell, a isometria da projeção paralela impede o bom funcionamento da calibração de câmera necessária à reconstrução.
+			Por outro lado, nota-se que há uma série de limitações à técnica de reconstrução que, ao fim, causa certa imprecisão ou restrição nos resultados objetivados. A delimitação de uma área de busca fixa, por exemplo, impede que um conjunto maior de reconstruções seja executado; a metodologia de demarcação - por \textit{clicks} - é costumeiramente imprecisa; e a estratégia de eliminação da multiplicidade projetiva não fora tão eficaz quanto o necessário.
 			
-			Embora tenha-se notado que os dados utilizados para a reconstrução neste trabalho são insuficientes para uma reconstrução perfeita, pode-se concluir que o aprimoramento de uma técnica, baseada na descrita na seção \ref{appDeteccaoRetas}, de detecção de regiões de interesse parametrizáveis (retas, curvas ou superfícies) é uma promissora abordagem para uma reconstrução mais fiel dos objetos retratados; uma vez que restrições algébricas inerentes ao elemento geométrico detectado podem se aliar às restrições projetivas e resolver, com maior grau de verossimilhança, o problema da multiplicidade projetiva. Neste ínterim, condições de simetria e repetições seriam, também, melhor aplicáveis.
+			De qualquer forma, a exemplo da litografia do Dürer e da imagem do \textit{VW Beetle} de Sutherland, viu-se que as imagens não propiciaram uma boa determinação de pontos de referência e interesse, uma vez que medidas eram inexistentes ou não correspondiam às medidas que o software requisitava; e, a exemplo da imagem do Bule de Newell, a projeção paralela impede o bom funcionamento da calibração de câmera necessária à reconstrução.
 			
-			Salienta-se, ainda, que o resultado gerado pelo \textit{software} de reconstrução é disponibilizado em arquivos de extensão PLY e, portanto, pode ser lido pelos principais programas de modelagem 3D; além disso, os \textit{softwares} anexos ao de reconstrução desempenham um bom auxílio a este último, o que faz deste trabalho um pacote contíguo de ferramentas computacionais direcionadas à reconstrução 3D.
+			Como visto na subseção \ref{subsecaoProjecaoParalela}, a projeção paralela mantém aspectos isométricos ao manter as coordenadas X e Y, independente da coordenada Z. Desta forma, sugere-se que um modelo de câmera que ignore a profundidade (equação \ref{formulaCameraParalela}) possa permitir que a técnica deste trabalho aja corretamente em imagens isométricas. Todavia, esta é uma hipótese ainda em verificação.
 			
-			Em adição, é importante notar a importância deste trabalho na busca por uma expansão no rol de técnicas de reconstrução 3D, o qual ainda é muito baseado em técnicas de multivisão. 
+			\begin{equation}
+				\label{formulaCameraParalela}
+				C = \begin{pmatrix}
+						q_{1,1} & q_{1,2} & q_{1,3} & q_{1,4} \\
+						q_{2,1} & q_{2,2} & q_{2,3} & q_{2,4}
+					\end{pmatrix}
+			\end{equation}
 			
-			Por fim, nota-se que a técnica de reconstrução desenvolvida neste trabalho gera resultados, no mínimo, coesos e, dentro das limitações que esta veio a sofrer a fim de que seu desenvolvimento coubesse no prazo designado ao projeto, satisfaz uma necessidade inicial de obtenção de dados tridimensionais.
+			Embora tenha-se notado que as imagens utilizadas para a reconstrução neste trabalho (\textit{VW Beetle} de Sutherland, Bule de Newell e Litografia do Dürer) não permitiram uma reconstrução perfeitamente verossímil dos seus objetos, pode-se concluir que o aprimoramento de uma técnica, baseada na descrita na seção \ref{appDeteccaoRetas}, de detecção de regiões de interesse parametrizáveis (retas, curvas ou superfícies) é uma promissora abordagem para uma reconstrução mais fiel dos objetos retratados, uma vez que restrições algébricas inerentes ao elemento geométrico detectado podem se aliar às restrições projetivas e resolver, com maior fidelidade, o problema da multiplicidade projetiva. Neste ínterim, condições de simetria e repetições seriam, também, melhor aplicáveis.
+			
+			Todavia, é importante notar a importância deste trabalho na busca por uma expansão no rol de técnicas de reconstrução 3D; já que, como discutido no capítulo \ref{capituloEstadoDaArte}, as reconstruções mais eficazes atualmente só são possíveis através de várias imagens do objeto de interesse.
+			
+			Por fim, nota-se que a técnica de reconstrução desenvolvida neste trabalho gera resultados coesos e, dentro das adequações em preocupação com o prazo designado, satisfaz uma necessidade inicial de obtenção de dados tridimensionais.
 			
 		\section{Trabalhos Futuros}
 			\label{secaoTrabalhosFuturos}
 			
-			Como futura expansão deste trabalho está a já descrita integração da técnica de reconstrução com a de detecção de regiões descritíveis parametricamente. Além disso, focando o desenvolvimento desta técnica em um escopo mais específico, é possível obter melhor desempenho uma vez que, neste âmbito, a descrição prévia dos objetos reconstruídos seria facilitada e, portanto, mais rica.
+			No futuro, pretende-se a conclusão da avaliação do modelo de câmera isométrico e consequente integração ao software de reconstrução aqui exposto. Por outra via, a expansão deste trabalho com a já descrita integração da técnica de reconstrução com a de detecção de regiões descritas parametricamente também é prevista. 
 			
-			Especificamente, melhorar e aplicar esta técnica de reconstrução em retratos de modelos arquitetônicos, de forma similar a \cite{3DFromLineDrawings}, a fim de possibilitar um estudo de restauro e documentação patrimonial mais rico é o próximo intento.
+			Por fim, deseja-se focar o desenvolvimento desta técnica em um escopo mais estrito -  modelos arquitetônicos (de forma similar a \cite{3DFromLineDrawings}) - pois acredita-se que com um escopo mais restrito, o conhecimento prévio do objeto de interesse será mais rico e possibilitará um estudo de restauro e documentação patrimonial robusto.

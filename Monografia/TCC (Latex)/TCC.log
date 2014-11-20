@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  18 NOV 2014 11:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.7)  19 NOV 2014 21:00
 entering extended mode
 **TCC.tex
 
@@ -550,7 +550,7 @@ Cap\'{\i }tulo 2.
 File: imagens/geometriaEpipolar.png Graphic file (type png)
 
 <use imagens/geometriaEpipolar.png>
-Package pdftex.def Info: imagens/geometriaEpipolar.png used on input line 15.
+Package pdftex.def Info: imagens/geometriaEpipolar.png used on input line 16.
 (pdftex.def)             Requested size: 215.55545pt x 142.26378pt.
  [4
 
@@ -558,7 +558,7 @@ Package pdftex.def Info: imagens/geometriaEpipolar.png used on input line 15.
 /Produções/TCC/imagens/geometriaEpipolar.png>])
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\capitulos/materiaisEMetodos.tex"
-Overfull \hbox (10.04475pt too wide) in paragraph at lines 43--1
+Overfull \hbox (10.04475pt too wide) in paragraph at lines 44--1
 []\OT1/cmr/m/n/12 Em (LEE; FENG; GO-OCH, 2008), apos um pro-cesso de ob-tenc~
 ao dos par^ametros
  []
@@ -985,7 +985,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--199
 File: imagens/printBuleDispensada.png Graphic file (type png)
 
 <use imagens/printBuleDispensada.png>
-Package pdftex.def Info: imagens/printBuleDispensada.png used on input line 212
+Package pdftex.def Info: imagens/printBuleDispensada.png used on input line 210
 .
 (pdftex.def)             Requested size: 269.86497pt x 227.62204pt.
  [32 <D:/Dropbox/UESC/TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D
@@ -1001,6 +1001,12 @@ Produções/TCC/imagens/printResultadoDurerEsquerda.png> <D:/Dropbox/UESC/TCC -
  Reconstrução de Objetos 3D a Partir de Imagens 2D/Produções/TCC/imagens/pr
 intResultadoDurerFrente.png>] [34 <D:/Dropbox/UESC/TCC - Reconstrução de Obje
 tos 3D a Partir de Imagens 2D/Produções/TCC/imagens/printBuleDispensada.png>]
+
+Overfull \hbox (1.93643pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/m/n/12 No fu-turo, pretende-se a con-clus~ao da ava-liac~ao do mo-d
+elo de c^amera isometrico
+ []
+
 )
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\TCC.bbl" [35] [36
@@ -1015,10 +1021,10 @@ ned-[]and-[]rendered-[]was-[]a-[]vw-[]beetle-[]2706861[]$
 ("D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Pro
 duções\TCC\TCC.aux") ) 
 Here is how much of TeX's memory you used:
- 4711 strings out of 493921
- 74784 string characters out of 3147259
- 132147 words of memory out of 3000000
- 7862 multiletter control sequences out of 15000+200000
+ 4713 strings out of 493921
+ 74829 string characters out of 3147259
+ 132166 words of memory out of 3000000
+ 7864 multiletter control sequences out of 15000+200000
  11629 words of font info for 41 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  44i,10n,48p,1231b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1037,7 +1043,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TCC.pdf (49 pages, 6667819 bytes).
+Output written on TCC.pdf (49 pages, 6668536 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
