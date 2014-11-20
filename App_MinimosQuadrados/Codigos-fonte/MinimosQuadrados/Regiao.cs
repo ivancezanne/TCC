@@ -10,9 +10,15 @@ namespace MinimosQuadrados
 {
     class Regiao
     {
-        public Point[] pontos = new Point[2];
-        public int npontos = 0;
-        public List<Point> interesse = new List<Point>();
+        public Point[] pontos;
+        public int npontos;
+        public List<Point> interesse;
+
+        public Regiao(int largura, int altura){
+            this.pontos = new Point[2]{ new Point(0, 0), new Point(largura, altura)};
+            this.npontos = 0;
+            this.interesse = new List<Point>();
+        }
 
 
         public double descobreM() {

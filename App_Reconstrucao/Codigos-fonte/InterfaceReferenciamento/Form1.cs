@@ -961,6 +961,8 @@ namespace InterfaceReferenciamento
 
                 if (r == DialogResult.Yes) {
                     this.executarCalibraçãoToolStripMenuItem_Click(sender, e);
+
+                    this.executarReconstruçãoToolStripMenuItem_Click(sender, e);
                 }
             }
         }

@@ -6,3 +6,4 @@ D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produ�
 D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\ProjecaoCap3\ProjecaoCap3\obj\x86\Release\ProjecaoCap3.exe
 D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\ProjecaoCap3\ProjecaoCap3\obj\x86\Release\ProjecaoCap3.pdb
 D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\ProjecaoCap3\ProjecaoCap3\obj\x86\Release\ProjecaoCap3.AboutBox1.resources
+D:\Dropbox\UESC\TCC - Reconstrução de Objetos 3D a Partir de Imagens 2D\Produções\ProjecaoCap3\ProjecaoCap3\obj\x86\Release\ProjecaoCap3.csprojResolveAssemblyReference.cache

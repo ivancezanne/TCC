@@ -12,22 +12,22 @@ namespace ProjecaoCap3
     public partial class Form1 : Form
     {
 
-        string filename;
-        List<double[]> vtable;
-        List<int[]> ftable;
-        List<int[]> etable;
-        List<double[]> eixo;
-        int ajusteZ = 2;
-        Point origemClick;
-        Boolean manipulacaoAtiva = false;
-        Pen canetaVertice;
-        Pen canetaFace;
-        SolidBrush pincelFace;
-        Pen canetaAresta;
-        Boolean[] renderizarElemento;
-        double txAntigo;
-        double tyAntigo;
-        double tzAntigo;
+        private string filename;
+        private List<double[]> vtable;
+        private List<int[]> ftable;
+        private List<int[]> etable;
+        private List<double[]> eixo;
+        private int ajusteZ = 2;
+        private Point origemClick;
+        private Boolean manipulacaoAtiva = false;
+        private Pen canetaVertice;
+        private Pen canetaFace;
+        private SolidBrush pincelFace;
+        private Pen canetaAresta;
+        private Boolean[] renderizarElemento;
+        private double txAntigo;
+        private double tyAntigo;
+        private double tzAntigo;
 
         public Form1()
         {
@@ -58,9 +58,9 @@ namespace ProjecaoCap3
 
             int scale, scaleX, scaleY;
 
-            pictureBox1.Refresh();
+            this.pictureBox1.Refresh();
 
-            Point[] pictureVertices = new Point[vtable.Count];
+            Point[] pictureVertices = new Point[this.vtable.Count];
 
             if (this.pictureBox1.Height > this.pictureBox1.Width) {
                 scale = this.pictureBox1.Width / 2;
@@ -74,16 +74,16 @@ namespace ProjecaoCap3
             }
 
             //renderizando referencial
-            if(renderizarElemento[3]){
+            if(this.renderizarElemento[3]){
 
                 List<double[]> p = new List<double[]>();
                 List<int[]> pz = new List<int[]>();
 
                 for (int i = 0; i < 4; i++ ) {
                     p.Add(multiplicar(eixo[i],
-                                      Convert.ToDouble(trackBar1.Value),
-                                      Convert.ToDouble(trackBar2.Value),
-                                      Convert.ToDouble(trackBar3.Value)));
+                                      Convert.ToDouble(this.trackBar1.Value),
+                                      Convert.ToDouble(this.trackBar2.Value),
+                                      Convert.ToDouble(this.trackBar3.Value)));
 
                     pz.Add(new int[2] { Convert.ToInt32(scale * ((p[i][0] / (p[i][2] + ajusteZ))) + scaleX), 
                                         Convert.ToInt32(scale * ((p[i][1] / (p[i][2] + ajusteZ))) + scaleY)});
@@ -96,13 +96,12 @@ namespace ProjecaoCap3
 
 
             //renderizando vertices
-            for (int i = 0; i < vtable.Count; i++)
-            {
+            for (int i = 0; i < this.vtable.Count; i++) {
 
-                double[] p1 = multiplicar(vtable[i],
-                                            Convert.ToDouble(trackBar1.Value),
-                                            Convert.ToDouble(trackBar2.Value),
-                                            Convert.ToDouble(trackBar3.Value));
+                double[] p1 = multiplicar(this.vtable[i],
+                                          Convert.ToDouble(this.trackBar1.Value),
+                                          Convert.ToDouble(this.trackBar2.Value),
+                                          Convert.ToDouble(this.trackBar3.Value));
 
                 double x = p1[0];
                 double y = p1[1];
@@ -114,7 +113,7 @@ namespace ProjecaoCap3
                 pictureVertices[i].X = Convert.ToInt32(scale * xprime + scaleX);
                 pictureVertices[i].Y = Convert.ToInt32(scale * yprime + scaleY);
 
-                if(this.renderizarElemento[0]){
+                if(this.renderizarElemento[0]) {
                     gp.DrawRectangle(canetaVertice,
                                      new Rectangle(pictureVertices[i].X,
                                                    pictureVertices[i].Y,
@@ -125,32 +124,29 @@ namespace ProjecaoCap3
 
             //renderizando faces
             if(this.renderizarElemento[1]){
-                for (int i1 = 0; i1 < ftable.Count; i1++)
-                {
-                    int numeroVertices = ftable[i1].Length;
+                for (int i1 = 0; i1 < this.ftable.Count; i1++) {
+                    int numeroVertices = this.ftable[i1].Length;
 
                     Point[] pontos = new Point[numeroVertices];
 
-                    for (int k = 0; k < numeroVertices; k++)
-                    {
+                    for (int k = 0; k < numeroVertices; k++) {
                         pontos[k] = pictureVertices[ftable[i1][k]];
                     }
 
-                    gp.FillPolygon(pincelFace,
+                    gp.FillPolygon(this.pincelFace,
                                    pontos);
-                    gp.DrawPolygon(canetaFace,
+                    gp.DrawPolygon(this.canetaFace,
                                    pontos);
                 }
             }
 
             //renderizando arestas
             if(this.renderizarElemento[2]){
-                for (int i2 = 0; i2 < etable.Count; i2++)
-                {
-                    int v1 = etable[i2][0];
-                    int v2 = etable[i2][1];
+                for (int i2 = 0; i2 < this.etable.Count; i2++) {
+                    int v1 = this.etable[i2][0];
+                    int v2 = this.etable[i2][1];
 
-                    gp.DrawLine(canetaAresta, pictureVertices[v1], pictureVertices[v2]);
+                    gp.DrawLine(this.canetaAresta, pictureVertices[v1], pictureVertices[v2]);
                 }
             }
         }
@@ -162,20 +158,30 @@ namespace ProjecaoCap3
             int nFaces = 0;
             int nArestas = 0;
 
-            openFileDialog1.FileName = "";
-            openFileDialog1.Title = "Abrir malha PLY";
-            openFileDialog1.ShowDialog();
+            this.openFileDialog1.FileName = "";
+            this.openFileDialog1.Title = "Abrir malha PLY";
+            this.openFileDialog1.ShowDialog();
 
-            if(openFileDialog1.FileName != ""){
-                filename = openFileDialog1.FileName;
+            if(this.openFileDialog1.FileName != ""){
+                filename = this.openFileDialog1.FileName;
 
                 System.IO.StreamReader file = new System.IO.StreamReader(filename);
 
                 Boolean fimCabecalho = false;
 
-                vtable.Clear();
-                ftable.Clear();
-                etable.Clear();
+                this.vtable.Clear();
+                this.ftable.Clear();
+                this.etable.Clear();
+
+                //reseta as rotações
+                this.trackBar1.Value = 0;
+                this.trackBar2.Value = 0;
+                this.trackBar3.Value = 0;
+
+                //reseta as translações
+                this.trackBar4.Value = 0;
+                this.trackBar5.Value = 0;
+                this.trackBar6.Value = 0;
 
                 //lê todas as linhas
                 while(linha != null && fimCabecalho == false){
@@ -216,9 +222,9 @@ namespace ProjecaoCap3
                     var partes = linha.Split(' ');
 
 
-                    vtable.Add(new double[3] { Convert.ToDouble(partes[0]), 
-                                               Convert.ToDouble(partes[1]), 
-                                               Convert.ToDouble(partes[2])});
+                    this.vtable.Add(new double[3] { Convert.ToDouble(partes[0]), 
+                                                    Convert.ToDouble(partes[1]), 
+                                                    Convert.ToDouble(partes[2])});
                 }
 
                 //inserindo faces
@@ -235,7 +241,7 @@ namespace ProjecaoCap3
                         verticesFace[k] = Convert.ToInt32(partes[k + 1]);
                     }
 
-                    ftable.Add(verticesFace);
+                    this.ftable.Add(verticesFace);
                 }
 
                 //inserindo arestas
@@ -244,15 +250,15 @@ namespace ProjecaoCap3
 
                     var partes = linha.Split(' ');
 
-                    etable.Add(new int[2] { Convert.ToInt32(partes[0]), 
-                                            Convert.ToInt32(partes[1]) });
+                    this.etable.Add(new int[2] { Convert.ToInt32(partes[0]), 
+                                                 Convert.ToInt32(partes[1]) });
                 }
 
                 file.Close();
 
                 this.Text = "Projeção (" + filename + ")";
 
-                toolStripStatusLabel1.Text = "vertices: " + nVertices + ", faces: " + nFaces + ", arestas: " + nArestas;
+                this.toolStripStatusLabel1.Text = "vertices: " + nVertices + ", faces: " + nFaces + ", arestas: " + nArestas;
 
                 MessageBox.Show(this, "PLY carregado com sucesso!", "Projeção - Aviso");
 
@@ -307,21 +313,21 @@ namespace ProjecaoCap3
 
         private void trackBar1_ValueChanged(object sender, EventArgs e) 
         {
-            label1.Text = "Eixo X (" + trackBar1.Value + "°)";
+            this.label1.Text = "Eixo X (" + this.trackBar1.Value + "°)";
 
             this.atualizaTela();
         }
 
         private void trackBar2_ValueChanged(object sender, EventArgs e)
         {
-            label2.Text = "Eixo Y (" + trackBar2.Value + "°)";
+            this.label2.Text = "Eixo Y (" + this.trackBar2.Value + "°)";
 
             this.atualizaTela();
         }
 
         private void trackBar3_ValueChanged(object sender, EventArgs e)
         {
-            label3.Text = "Eixo Z (" + trackBar3.Value + "°)";
+            this.label3.Text = "Eixo Z (" + this.trackBar3.Value + "°)";
 
             this.atualizaTela();
         }
@@ -331,7 +337,7 @@ namespace ProjecaoCap3
 
             this.label4.Text = "Eixo X (" + t + ")";
 
-            for(int i = 0; i < this.vtable.Count; i++){
+            for(int i = 0; i < this.vtable.Count; i++) {
                 this.vtable[i][0] += (t - this.txAntigo);
             }
 
@@ -345,8 +351,7 @@ namespace ProjecaoCap3
 
             this.label5.Text = "Eixo Y (" + t + ")";
 
-            for (int i = 0; i < this.vtable.Count; i++)
-            {
+            for (int i = 0; i < this.vtable.Count; i++) {
                 this.vtable[i][1] += (t - this.tyAntigo);
             }
 
@@ -360,8 +365,7 @@ namespace ProjecaoCap3
 
             this.label6.Text = "Eixo Z (" + t + ")";
 
-            for (int i = 0; i < this.vtable.Count; i++)
-            {
+            for (int i = 0; i < this.vtable.Count; i++) {
                 this.vtable[i][2] += (t - this.tzAntigo);
             }
 
@@ -393,9 +397,9 @@ namespace ProjecaoCap3
 
         private void verticesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            colorDialog1.ShowDialog(this);
+            this.colorDialog1.ShowDialog(this);
 
-            Color cor = colorDialog1.Color;
+            Color cor = this.colorDialog1.Color;
 
             this.canetaVertice.Color = cor;
 
@@ -404,9 +408,9 @@ namespace ProjecaoCap3
 
         private void contornoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            colorDialog1.ShowDialog(this);
+            this.colorDialog1.ShowDialog(this);
 
-            Color cor = colorDialog1.Color;
+            Color cor = this.colorDialog1.Color;
 
             this.canetaFace.Color = cor;
 
@@ -415,9 +419,9 @@ namespace ProjecaoCap3
 
         private void áreaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            colorDialog1.ShowDialog(this);
+            this.colorDialog1.ShowDialog(this);
 
-            Color cor = colorDialog1.Color;
+            Color cor = this.colorDialog1.Color;
 
             this.pincelFace.Color = Color.FromArgb(70, cor);
 
@@ -426,9 +430,9 @@ namespace ProjecaoCap3
 
         private void arestasToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            colorDialog1.ShowDialog(this);
+            this.colorDialog1.ShowDialog(this);
 
-            Color cor = colorDialog1.Color;
+            Color cor = this.colorDialog1.Color;
 
             this.canetaAresta.Color = cor;
 
@@ -461,6 +465,7 @@ namespace ProjecaoCap3
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
+
             double[] maior = new double[3], menor = new double[3];
 
             maior[0] = menor[0] = vtable[0][0];
@@ -468,38 +473,31 @@ namespace ProjecaoCap3
             maior[2] = menor[2] = vtable[0][2];
 
             //busca de maior e menor valores
-            for (int i = 1; i < this.vtable.Count; i++)
-            {
+            for (int i = 1; i < this.vtable.Count; i++) {
                 //maior x
-                if (this.vtable[i][0] > maior[0])
-                {
+                if (this.vtable[i][0] > maior[0]) {
                     maior[0] = this.vtable[i][0];
                 }
                 //menor x
-                if (this.vtable[i][0] < menor[0])
-                {
+                if (this.vtable[i][0] < menor[0]) {
                     menor[0] = this.vtable[i][0];
                 }
 
                 //maior y
-                if (this.vtable[i][1] > maior[1])
-                {
+                if (this.vtable[i][1] > maior[1]) {
                     maior[1] = this.vtable[i][1];
                 }
                 //menor y
-                if (this.vtable[i][1] < menor[1])
-                {
+                if (this.vtable[i][1] < menor[1]) {
                     menor[1] = this.vtable[i][1];
                 }
 
                 //maior z
-                if (this.vtable[i][2] > maior[2])
-                {
+                if (this.vtable[i][2] > maior[2]) {
                     maior[2] = this.vtable[i][2];
                 }
                 //menor z
-                if (this.vtable[i][2] < menor[2])
-                {
+                if (this.vtable[i][2] < menor[2]) {
                     menor[2] = this.vtable[i][2];
                 }
             }
@@ -512,7 +510,7 @@ namespace ProjecaoCap3
             bz = (maior[2] + menor[2]) / 2;
 
             //translação
-            for(int i = 0; i < vtable.Count; i++){
+            for(int i = 0; i < this.vtable.Count; i++){
                 this.vtable[i][0] -= bx;
                 this.vtable[i][1] -= by;
                 this.vtable[i][2] -= bz;
@@ -529,7 +527,10 @@ namespace ProjecaoCap3
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            double maior = 0;;
+
+            this.toolStripButton2_Click(sender, e);
+
+            double maior = 0;
 
             //inicialização de maior
             if(this.vtable[0][0] >= this.vtable[0][1] && this.vtable[0][0] >= this.vtable[0][2]){
@@ -566,13 +567,67 @@ namespace ProjecaoCap3
             }
 
             //escalonamento
-            for (int i = 0; i < vtable.Count; i++){
+            for (int i = 0; i < this.vtable.Count; i++){
                 this.vtable[i][0] /= maior;
                 this.vtable[i][1] /= maior;
                 this.vtable[i][2] /= maior;
             }
 
+
+
+            this.trackBar1.Value = 0;
+            this.trackBar2.Value = 0;
+            this.trackBar3.Value = 0;
+
             this.atualizaTela();
+        }
+
+        private void salvarPLYToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.saveFileDialog1.Title = "Salvar malha em arquivo PLY";
+            this.saveFileDialog1.FileName = "";
+
+            this.saveFileDialog1.ShowDialog(this);
+
+            if(this.saveFileDialog1.FileName != ""){
+                String filename = this.saveFileDialog1.FileName;
+
+                System.IO.StreamWriter arquivoSaida = new System.IO.StreamWriter(filename);
+
+                arquivoSaida.WriteLine("ply");
+                arquivoSaida.WriteLine("format ascii 1.0");
+                arquivoSaida.WriteLine("element vertex " + this.vtable.Count);
+                arquivoSaida.WriteLine("property float x");
+                arquivoSaida.WriteLine("property float y");
+                arquivoSaida.WriteLine("property float z");
+
+                if(this.ftable.Count > 0){
+                    arquivoSaida.WriteLine("element face " + this.ftable.Count);
+                }
+
+                arquivoSaida.WriteLine("end_header");
+
+                for(int i = 0; i < this.vtable.Count; i++) {
+                    arquivoSaida.WriteLine(this.vtable[i][0] + " " + this.vtable[i][1] + " " + this.vtable[i][2]);
+                }
+
+                for (int i = 0; i < this.ftable.Count; i++) {
+                    arquivoSaida.Write("" + this.ftable[i].Length);
+                    for(int k = 0; k < this.ftable[i].Length; k++){
+                        arquivoSaida.Write(" " + this.ftable[i][k]);
+                    }
+                    arquivoSaida.WriteLine("");
+                }
+
+                arquivoSaida.Close();
+
+                MessageBox.Show(this, "Malha salva com sucesso!", "Projeção - Aviso");
+            }
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

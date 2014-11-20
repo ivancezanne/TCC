@@ -37,6 +37,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.salvarPLYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visualizaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renderizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verticesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,6 +72,8 @@
             this.trackBar6 = new System.Windows.Forms.TrackBar();
             this.trackBar5 = new System.Windows.Forms.TrackBar();
             this.trackBar4 = new System.Windows.Forms.TrackBar();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -101,6 +104,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "Arquivos PLY (*.ply)|*.ply";
             // 
             // statusStrip1
             // 
@@ -133,7 +137,9 @@
             // arquivoToolStripMenuItem
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.abrirToolStripMenuItem1});
+            this.abrirToolStripMenuItem1,
+            this.salvarPLYToolStripMenuItem,
+            this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
@@ -141,9 +147,16 @@
             // abrirToolStripMenuItem1
             // 
             this.abrirToolStripMenuItem1.Name = "abrirToolStripMenuItem1";
-            this.abrirToolStripMenuItem1.Size = new System.Drawing.Size(123, 22);
+            this.abrirToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.abrirToolStripMenuItem1.Text = "Abrir PLY";
             this.abrirToolStripMenuItem1.Click += new System.EventHandler(this.abrirToolStripMenuItem1_Click);
+            // 
+            // salvarPLYToolStripMenuItem
+            // 
+            this.salvarPLYToolStripMenuItem.Name = "salvarPLYToolStripMenuItem";
+            this.salvarPLYToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salvarPLYToolStripMenuItem.Text = "Salvar PLY";
+            this.salvarPLYToolStripMenuItem.Click += new System.EventHandler(this.salvarPLYToolStripMenuItem_Click);
             // 
             // visualizaçãoToolStripMenuItem
             // 
@@ -458,6 +471,17 @@
             this.trackBar4.TabIndex = 0;
             this.trackBar4.ValueChanged += new System.EventHandler(this.trackBar4_ValueChanged);
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.Filter = "Arquivos PLY (*.ply)|*.ply";
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -540,6 +564,9 @@
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripMenuItem salvarPLYToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
 
     }
 }

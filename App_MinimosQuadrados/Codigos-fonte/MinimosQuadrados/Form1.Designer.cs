@@ -36,8 +36,10 @@
             this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.processosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.executarAproximaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetarRegiãoDeInteresseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -81,7 +83,8 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.abrirImagemToolStripMenuItem});
+            this.abrirImagemToolStripMenuItem,
+            this.sairToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(61, 20);
             this.toolStripMenuItem1.Text = "Arquivo";
@@ -89,14 +92,15 @@
             // abrirImagemToolStripMenuItem
             // 
             this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
-            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.abrirImagemToolStripMenuItem.Text = "Abrir imagem";
             this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click_1);
             // 
             // processosToolStripMenuItem
             // 
             this.processosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.executarAproximaçãoToolStripMenuItem});
+            this.executarAproximaçãoToolStripMenuItem,
+            this.resetarRegiãoDeInteresseToolStripMenuItem});
             this.processosToolStripMenuItem.Name = "processosToolStripMenuItem";
             this.processosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.processosToolStripMenuItem.Text = "Processos";
@@ -104,9 +108,16 @@
             // executarAproximaçãoToolStripMenuItem
             // 
             this.executarAproximaçãoToolStripMenuItem.Name = "executarAproximaçãoToolStripMenuItem";
-            this.executarAproximaçãoToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.executarAproximaçãoToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.executarAproximaçãoToolStripMenuItem.Text = "Executar aproximação";
             this.executarAproximaçãoToolStripMenuItem.Click += new System.EventHandler(this.executarAproximaçãoToolStripMenuItem_Click);
+            // 
+            // resetarRegiãoDeInteresseToolStripMenuItem
+            // 
+            this.resetarRegiãoDeInteresseToolStripMenuItem.Name = "resetarRegiãoDeInteresseToolStripMenuItem";
+            this.resetarRegiãoDeInteresseToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.resetarRegiãoDeInteresseToolStripMenuItem.Text = "Resetar região de interesse";
+            this.resetarRegiãoDeInteresseToolStripMenuItem.Click += new System.EventHandler(this.resetarRegiãoDeInteresseToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
@@ -124,6 +135,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(103, 53);
             this.panel1.TabIndex = 6;
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -162,6 +180,8 @@
         private System.Windows.Forms.ToolStripMenuItem executarAproximaçãoToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resetarRegiãoDeInteresseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
     }
 }
 
